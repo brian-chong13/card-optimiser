@@ -108,7 +108,7 @@ export default {
 
     function autoLocation() {
       if (S.locationManual) return;
-      S.location = curCode() !== 'SGD' && S.channel === 'offline' ? 'overseas' : 'sg';
+      S.location = curCode() !== 'SGD' ? 'overseas' : 'sg';
     }
 
     function applyUsual(rec) {
