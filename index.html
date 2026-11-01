@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Card optimiser</title>
+  <meta name="description" content="Which card should I use for this purchase to earn the most miles.">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4f6f9">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e1218">
+  <meta name="color-scheme" content="light dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Cards">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="app/styles.css">
+</head>
+<body>
+  <div id="app"><p class="fatal muted">Loading...</p></div>
+  <noscript>This app needs JavaScript.</noscript>
+  <script>
+    if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js').catch(function () { /* offline support is optional */ });
+      });
+    }
+  </script>
+  <script type="module" src="app/main.js"></script>
+</body>
+</html>

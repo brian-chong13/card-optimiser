@@ -1,0 +1,2818 @@
+{
+ "version": 1,
+ "builtAt": "2026-11-01",
+ "confidenceKey": {
+  "high": "Merchant named with this code in a MileLion, Mainly Miles or Suitesmile article from 2025 to 2026, or an issuer or network list, with no contradicting source.",
+  "medium": "Merchant named in a weaker source (SingSaver, MoneySmart, Money Bees, community wiki or reports), or sources agree on the family but not the exact code, or a chain code that individual properties may not follow.",
+  "low": "Category-level inference, a single community report, or sources that conflict. Verify on the first charge with the bank app or the Visa Supplier Locator."
+ },
+ "matching": "names are upper case descriptor fragments matched as whole words. exactNames are descriptors too generic to match inside longer text and should only match a whole descriptor. Where two records could match (for example ALP* for Alipay and ALP*DIDI), prefer the longest name. mcc.v null means no merchant-specific data point: use categoryDefaults. mccAlt lists other codes seen for the merchant. notAccepted lists card networks only, each with a source in notAcceptedS.",
+ "merchants": [
+  {
+   "id": "aia",
+   "displayName": "AIA (insurance premium)",
+   "names": [
+    "AIA PZEC",
+    "AIA PZCW",
+    "AIA"
+   ],
+   "category": "insurance",
+   "mcc": {
+    "v": "6300",
+    "s": [
+     "s12",
+     "s13"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5960"
+   ],
+   "channels": [
+    "online"
+   ],
+   "notAccepted": [
+    "visa",
+    "amex"
+   ],
+   "notAcceptedS": [
+    "s14"
+   ],
+   "notAcceptedNote": "AIA FAQ: beyond the first policy year only Mastercard is allowed; Visa and Amex are first-year premium only. SingSaver (s13) says AIA takes Amex, which conflicts for recurring payments. Tick notAccepted off if paying a first-year premium.",
+   "origin": "brian_top",
+   "note": "Insurer-level data only (5960 or 6300); no AIA-specific code found. Either code is zero or base-only on most stack cards, so the choice rarely changes the ranking. Card network matters more: AIA only takes Mastercard after the first policy year."
+  },
+  {
+   "id": "mufc-tickets",
+   "displayName": "Manchester United (tickets)",
+   "names": [
+    "MUFC TICKETI",
+    "MUFC TICKETING",
+    "MUFC"
+   ],
+   "category": "events_tickets",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "No data point found for this merchant. Sports club and ticketing merchants plausibly code 7941, 7922 or 7999. Falls back to the events_tickets default. Verify on the first charge via the bank app or the Visa Supplier Locator (s24)."
+  },
+  {
+   "id": "sp-group",
+   "displayName": "SP Group (utilities)",
+   "names": [
+    "SP DIGITAL PL-UTILITIE",
+    "SP DIGITAL PL-UTIL-RE",
+    "SP DIGITAL",
+    "SP GROUP",
+    "SP SERVICES"
+   ],
+   "category": "utilities",
+   "mcc": {
+    "v": "4900",
+    "s": [
+     "s9",
+     "s16"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Utilities MCC 4900 is a zero-earn exclusion on most stack cards (Citi, DBS yuu, HSBC, Maybank, Trust, Amex). Chocolate counts it as a capped bill payment."
+  },
+  {
+   "id": "bahrain-intl-circuit",
+   "displayName": "Bahrain International Circuit (F1)",
+   "names": [
+    "BAHRAIN INTL CIRCUIT",
+    "BAHRAIN INTERNATIONAL CIRCUIT"
+   ],
+   "category": "events_tickets",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "No data point found. Venue and event ticketing codes vary (7941, 7922, 7999 are plausible). Charged in BHD, so the foreign currency rate applies. Falls back to the events_tickets default."
+  },
+  {
+   "id": "alipay-qr",
+   "displayName": "Alipay / WeChat QR (China)",
+   "names": [
+    "ALP*",
+    "ALIPAY"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": "5399",
+    "s": [
+     "s17"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5999"
+   ],
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Single community report (18 Nov 2024): Alipay via Amaze coded 5399 and WeChat Pay 5999. With the payee redacted, the real merchant MCC cannot be seen; Alipay is the likely merchant of record. Meituan and Didi share the ALP* prefix; the longest matching name should win."
+  },
+  {
+   "id": "singapore-airlines",
+   "displayName": "Singapore Airlines",
+   "names": [
+    "SINGAPORE AIRLINES",
+    "SINGAPORE AIR",
+    "SQ.COM"
+   ],
+   "exactNames": [
+    "SINGAPORE",
+    "SINGAPOR"
+   ],
+   "category": "airline",
+   "mcc": {
+    "v": "3075",
+    "s": [
+     "s2",
+     "s3",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "MCC trap: SIA codes as its own carrier code 3075, not 4511; both sit inside card travel ranges (3000-3350). The bare statement descriptors SINGAPORE and SINGAPOR are too generic for substring matching, so they are listed as exactNames. A user report says booking via the SIA Corporate Portal coded 3011 (Oct 2024)."
+  },
+  {
+   "id": "malaysia-airlines",
+   "displayName": "Malaysia Airlines",
+   "names": [
+    "MALAYSIA AIRLINES",
+    "MALAY AI",
+    "MALAYSIAN AIRLINE"
+   ],
+   "category": "airline",
+   "mcc": {
+    "v": "3100",
+    "s": [
+     "s3"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "4511"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Single issuer list (undated); its descriptor MALAY AI matches Brian's statement. Falls in the 3000-3350 airline range."
+  },
+  {
+   "id": "off-duty",
+   "displayName": "Off Duty",
+   "names": [
+    "OFF DUTY PTE LTD",
+    "OFF DUTY"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Business type unconfirmed (a job listing suggests a Pilates studio, which would code 7991, 7997 or 7298, but this is not verified for Brian's merchant). Left without an MCC; set an override once seen on a bank app."
+  },
+  {
+   "id": "skin-longevity",
+   "displayName": "Skin Longevity (aesthetics)",
+   "names": [
+    "NETS RETAIL*SKIN LONGEV",
+    "SKIN LONGEVITY"
+   ],
+   "category": "medical",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "No data point found. Aesthetic clinics can code as health practitioners (8099), medical (8011) or beauty (7230). The NETS RETAIL prefix suggests a NETS terminal; confirm the card-side code on the bank app. Falls back to the medical default."
+  },
+  {
+   "id": "best-tech",
+   "displayName": "Best Tech (electronics)",
+   "names": [
+    "BEST TECH TAN BOON LIA",
+    "BEST TECH"
+   ],
+   "category": "electronics",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5722",
+    "5732"
+   ],
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Home appliance and electronics retailer at Tan Boon Liat. Appliance stores can code 5722 rather than 5732; no data point found. Falls back to the electronics default."
+  },
+  {
+   "id": "giant",
+   "displayName": "Giant",
+   "names": [
+    "GIANT",
+    "GIANT HYPERMART",
+    "GIANT EXPRESS"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1",
+     "s6",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "heymaxBrand": "Giant",
+   "origin": "brian_top",
+   "note": "Giant vouchers on HeyMax exist (s1 says they code 5311) but no Max Miles rate is published. 5411 is excluded from most bonus categories, so the HeyMax voucher route can beat paying direct on cards that bonus 5311."
+  },
+  {
+   "id": "hilton",
+   "displayName": "Hilton",
+   "names": [
+    "HILTON"
+   ],
+   "category": "hotel",
+   "mcc": {
+    "v": "3504",
+    "s": [
+     "s3",
+     "s4"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "7011"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Chain code 3504 from an issuer list. Overseas chain properties can still code 7011 (s4), and that matters on Maybank XL, which only counts 7011 as lodging. Refund lines (FX Refund) are not purchases."
+  },
+  {
+   "id": "shopee",
+   "displayName": "Shopee",
+   "names": [
+    "SHOPEE SINGAPORE MP",
+    "SHOPEE SG MP",
+    "SHOPEE"
+   ],
+   "category": "online_shopping",
+   "mcc": {
+    "v": "5262",
+    "s": [
+     "s17",
+     "s22",
+     "s15",
+     "s16"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5399",
+    "5331",
+    "6540"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "MCC trap: sources conflict. Community reports from Apr to May 2026 show 5262 (Marketplaces) on HSBC Revolution, UOB One and DBS WWMC; MoneySmart (Jan 2026) shows 5331 or 5399. ShopeePay top-ups code 5262 or 6540 and earn nothing on several cards. 5262 is not on Citi Rewards' 10X list. OCBC awards Shopee bonuses by merchant name, not MCC."
+  },
+  {
+   "id": "starhub",
+   "displayName": "StarHub",
+   "names": [
+    "STARHUB EPAYMENT",
+    "STARHUB RECUR POSTPAID",
+    "STARHUB"
+   ],
+   "category": "telco",
+   "mcc": {
+    "v": "4814",
+    "s": [
+     "s9",
+     "s17"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "4812"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Telco bills code 4814 (generic MileLion statement, community wiki lists 4812 and 4814 for StarHub). Telco spend is excluded or capped on several stack cards; check each card's exclusions. Payments routed through AXS earn nothing on most cards."
+  },
+  {
+   "id": "kimpton",
+   "displayName": "Kimpton (IHG)",
+   "names": [
+    "KIMPTON DA AN HOTEL TA",
+    "KIMPTON"
+   ],
+   "category": "hotel",
+   "mcc": {
+    "v": "3838",
+    "s": [
+     "s3",
+     "s4"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "7011"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Chain code 3838 from an issuer list. Overseas chain properties can code 7011 (s4). IHG is not one code: Holiday Inn is 3501 and InterContinental 3512."
+  },
+  {
+   "id": "grab",
+   "displayName": "Grab (rides)",
+   "names": [
+    "GRAB RIDES",
+    "GRABTAXI",
+    "GRAB TAXI"
+   ],
+   "exactNames": [
+    "GRAB"
+   ],
+   "category": "ride_hailing",
+   "mcc": {
+    "v": "4121",
+    "s": [
+     "s6",
+     "s15",
+     "s16",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "online"
+   ],
+   "heymaxBrand": "Grab",
+   "origin": "brian_top",
+   "note": "MCC trap: Grab codes differently by product. Rides 4121; GrabFood 5814 (see grab-food); GrabMart orders code 5814 not 5411 (community report); GrabPay top-ups are stored value and earn zero on many cards (see grabpay-topup). The bare descriptor Grab is listed as an exact name only."
+  },
+  {
+   "id": "grab-food",
+   "displayName": "GrabFood / GrabMart",
+   "names": [
+    "GRABFOOD",
+    "GRAB FOOD",
+    "GRABMART",
+    "GRAB MART"
+   ],
+   "category": "food_delivery",
+   "mcc": {
+    "v": "5814",
+    "s": [
+     "s8",
+     "s17"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5812",
+    "5499"
+   ],
+   "channels": [
+    "online"
+   ],
+   "heymaxBrand": "Grab",
+   "origin": "brian_top",
+   "note": "MileLion (Oct 2026) says food delivery usually codes 5814, historically 5812 or 5814; MoneySmart and Money Bees show 5499. Not dining on most cards, and 5814 or 5499 are outside the HSBC Revolution whitelist."
+  },
+  {
+   "id": "grab-subscription",
+   "displayName": "Grab subscription (GrabUnlimited)",
+   "names": [
+    "GRAB SUBSCRIPTION",
+    "SUBSCRIPTIONGRAB",
+    "GRABUNLIMITED"
+   ],
+   "category": "ride_hailing",
+   "mcc": {
+    "v": "4121",
+    "s": [
+     "s8"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Recurring Grab Subscription lines. MileLion (Oct 2026) discusses GrabUnlimited under the transport category (4121) for Mastercard; not checked against a statement. Treat as unverified."
+  },
+  {
+   "id": "grabpay-topup",
+   "displayName": "GrabPay top-up",
+   "names": [
+    "GRABPAY",
+    "GRABPAY TOP UP",
+    "GRABPAY TOPUP"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": "6540",
+    "s": [
+     "s17",
+     "s15",
+     "s16",
+     "s6"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "7399",
+    "6051"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "common",
+   "note": "MCC trap: wallet top-ups code as stored value (6540) or business services (7399, 6051) depending on source. Earns zero on Citi, HSBC Revolution, Maybank XL, Trust and Amex Platinum (platform exclusions). Do not use for miles."
+  },
+  {
+   "id": "public-transport-sg",
+   "displayName": "Public transport (SG bus/MRT)",
+   "names": [
+    "BUS/MRT",
+    "TRANSIT",
+    "SIMPLYGO",
+    "SBS TRANSIT",
+    "SMRT"
+   ],
+   "category": "transport",
+   "mcc": {
+    "v": "4111",
+    "s": [
+     "s6",
+     "s25"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "MCC trap: 4111 is outside most bonus categories (HSBC Revolution whitelist excludes it). Citi excludes descriptors BUS/MRT and TRANSIT; Amex Platinum and Maybank XL also exclude SimplyGo. DBS yuu has a SimplyGo bonus tier by name."
+  },
+  {
+   "id": "scoot",
+   "displayName": "Scoot",
+   "names": [
+    "FLYSCOOT.IDVFYQ",
+    "FLYSCOOT",
+    "SCOOT"
+   ],
+   "category": "airline",
+   "mcc": {
+    "v": "4511",
+    "s": [
+     "s2",
+     "s17"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Scoot is not on the BPI carrier list; MileLion says it may fall under the generic 4511, community wiki agrees. 4511 is inside card airline categories."
+  },
+  {
+   "id": "hyatt",
+   "displayName": "Hyatt",
+   "names": [
+    "HYATT"
+   ],
+   "category": "hotel",
+   "mcc": {
+    "v": "3640",
+    "s": [
+     "s3",
+     "s4"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "7011"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Chain code 3640 from an issuer list; a chain property may code 7011 (s4). Hyatt Place is separate (3812)."
+  },
+  {
+   "id": "cathay-pacific",
+   "displayName": "Cathay Pacific",
+   "names": [
+    "CATHAY PACIFIC",
+    "CATHAYPA",
+    "CATHAY"
+   ],
+   "category": "airline",
+   "mcc": {
+    "v": "3099",
+    "s": [
+     "s3"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "4511"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Single issuer list (undated); its descriptor CATHAYPA matches Brian's statement. Falls in the 3000-3350 airline range."
+  },
+  {
+   "id": "hotel-other",
+   "displayName": "Hotel (other)",
+   "names": [
+    "INDIGO_FRONT OFFICE",
+    "BEACH ROAD HOTEL"
+   ],
+   "category": "hotel",
+   "mcc": {
+    "v": "7011",
+    "s": [
+     "s4",
+     "s5"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "3501"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Smaller or independent hotels typically code 7011 (s5); Hotel Indigo is an IHG brand and may code in 3501-3999 instead. No data point for either property."
+  },
+  {
+   "id": "guardian",
+   "displayName": "Guardian",
+   "names": [
+    "GUARDIAN",
+    "GUARDIAN QT"
+   ],
+   "category": "pharmacy",
+   "mcc": {
+    "v": "5912",
+    "s": [
+     "s11",
+     "s16",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "5912 is on the HSBC Revolution whitelist and Citi's list does not include it. DBS yuu bonus applies by merchant name, including the Guardian website."
+  },
+  {
+   "id": "san-shu-gong-chao-yue",
+   "displayName": "San Shu Gong Chao Yue",
+   "names": [
+    "SAN SHU GONG CHAO YUE"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Unidentified merchant; category and MCC unknown. Set an override or merchant category once identified."
+  },
+  {
+   "id": "lazada",
+   "displayName": "Lazada",
+   "names": [
+    "LAZADA"
+   ],
+   "category": "online_shopping",
+   "mcc": {
+    "v": "5262",
+    "s": [
+     "s17",
+     "s1",
+     "s15",
+     "s16",
+     "s19"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5311",
+    "5411",
+    "5399"
+   ],
+   "channels": [
+    "online"
+   ],
+   "heymaxBrand": "Lazada",
+   "origin": "brian_top",
+   "note": "MCC trap: Lazada uses multiple MCCs (HeyMax lookup, s19). MoneySmart and Money Bees say 5311 (Jan 2026); a UOB Lady's report (Jun 2026) and MileLion on RedMart (Jan 2026) point to 5262, which is not on Citi's 10X list. RedMart orders may code 5411 or 5262. A HeyMax Lazada voucher exists (no rate published) and codes 5311."
+  },
+  {
+   "id": "krispay-qr",
+   "displayName": "Unidentified QR payee (KrisPay)",
+   "names": [
+    "KRISPAY*",
+    "KRISPAY"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Payee redacted; the MCC is the underlying payee's and cannot be inferred. Set an override per transaction."
+  },
+  {
+   "id": "meipai",
+   "displayName": "Meipai",
+   "names": [
+    "MEIPAI"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Unidentified merchant; overseas QR style payment. No data point found."
+  },
+  {
+   "id": "ban-lan-hokkien",
+   "displayName": "Ban Lan Hokkien Cuisine",
+   "names": [
+    "SMP**BAN LAN",
+    "BAN LAN HOKKIEN",
+    "BAN LAN"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: restaurants code 5812 (s7). The SMP** prefix looks like a payment facilitator and may change the code; unverified."
+  },
+  {
+   "id": "yang-ming-seafood",
+   "displayName": "Yang Ming Seafood",
+   "names": [
+    "DEBIA*YANG MING",
+    "YANG MING SEAFOOD",
+    "YANG MING"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: restaurants code 5812 (s7). The DEBIA* prefix looks like a payment facilitator and may change the code; unverified."
+  },
+  {
+   "id": "taobao",
+   "displayName": "Taobao",
+   "names": [
+    "TAOBAO"
+   ],
+   "category": "online_shopping",
+   "mcc": {
+    "v": "5311",
+    "s": [
+     "s11",
+     "s15"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5411"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "MCC trap: MileLion lists Taobao under 5311; MoneySmart (citing WhatCard) says the app codes 5311 but the website codes 5411 (grocery). Overseas seller; a card's SGD or FCY treatment depends on how Taobao bills (Brian's data shows SGD)."
+  },
+  {
+   "id": "hakka-yu",
+   "displayName": "Hakka Yu",
+   "names": [
+    "HAKKA YU"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: restaurants code 5812 (s7). No merchant-specific data point."
+  },
+  {
+   "id": "paradise-group",
+   "displayName": "Paradise Group",
+   "names": [
+    "PARADISE DYNASTY",
+    "PARADISE TEOCHEW",
+    "PARADISE GROUP"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Named in MileLion's dining article as a 5812 example. Hotel-based outlets may code as the hotel."
+  },
+  {
+   "id": "cold-storage",
+   "displayName": "Cold Storage",
+   "names": [
+    "COLD STORAGE",
+    "CS FRESH"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1",
+     "s6",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Cold Storage On The Go (inside Esso stations) is a convenience format and is excluded from the DBS yuu bonus. For the app see cold-storage-app. A Cold Storage HeyMax voucher is not confirmed."
+  },
+  {
+   "id": "cold-storage-app",
+   "displayName": "Cold Storage app / online",
+   "names": [
+    "COLD STORAGE APP",
+    "COLD STORAGE ONLINE"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1",
+     "s18"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "online"
+   ],
+   "notAccepted": [
+    "amex"
+   ],
+   "notAcceptedS": [
+    "s18"
+   ],
+   "notAcceptedNote": "MileLion (18 Jul 2026): the Cold Storage app does not accept AMEX cards.",
+   "origin": "common",
+   "note": "Same 5411 as the stores, medium because the app channel is not separately sourced. The DBS yuu card earns the bonus here when yuu ID is linked."
+  },
+  {
+   "id": "uber",
+   "displayName": "Uber",
+   "names": [
+    "UBER RIDES",
+    "UBER B.V.",
+    "UBER"
+   ],
+   "category": "ride_hailing",
+   "mcc": {
+    "v": "4121",
+    "s": [
+     "s21"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5812"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "One community page (data source not named) says rides 4121 and UberEats 5812. Brian's Uber spend is overseas (TWD), so the foreign currency rate applies."
+  },
+  {
+   "id": "jaya-grocer",
+   "displayName": "Jaya Grocer",
+   "names": [
+    "JAYA GROCER"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: supermarkets code 5411 (s1 covers Singapore chains). Jaya Grocer is a Malaysian chain and is not named in any source."
+  },
+  {
+   "id": "nai-nai",
+   "displayName": "Nai Nai Flavour",
+   "names": [
+    "NAI NAI"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5814"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level guess; format (restaurant or cafe) unconfirmed, cafes are often 5814 (s7)."
+  },
+  {
+   "id": "les-bouchons",
+   "displayName": "Les Bouchons",
+   "names": [
+    "LES BOUCHONS"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: restaurants code 5812 (s7). No merchant-specific data point."
+  },
+  {
+   "id": "shanxiayousong",
+   "displayName": "Shanxiayousong",
+   "names": [
+    "SHANXIAYOUSONG(SHANGHAI)GSHANGHAISHI",
+    "SHANXIAYOUSONG"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Unidentified Shanghai merchant charged in CNY. No data point found."
+  },
+  {
+   "id": "linkedin",
+   "displayName": "LinkedIn",
+   "names": [
+    "LINKEDINPREA",
+    "LINKEDIN SN P",
+    "LINKEDIN"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": "7399",
+    "s": [
+     "s20"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "MCC trap: community-reported 7399 (Business Services NEC), which HSBC Revolution, HSBC TravelOne and Trust treat as zero or excluded. LinkedIn Premium and Sales Navigator are billed in SGD per Brian's data."
+  },
+  {
+   "id": "gojek",
+   "displayName": "Gojek (GoPay)",
+   "names": [
+    "GOPAY-GOJEK",
+    "GOJEK",
+    "GOPAY"
+   ],
+   "category": "ride_hailing",
+   "mcc": {
+    "v": "4121",
+    "s": [
+     "s15",
+     "s17"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "6540"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Gojek rides are listed as 4121 (MoneySmart, community wiki) but the descriptor GOPAY-GOJEK points to the GoPay wallet, which can code as stored value. DBS yuu gives a bonus at Gojek Singapore by merchant name."
+  },
+  {
+   "id": "chin-lee",
+   "displayName": "Chin Lee Restaurant",
+   "names": [
+    "CHIN LEE"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: restaurants code 5812 (s7). No merchant-specific data point."
+  },
+  {
+   "id": "fairprice",
+   "displayName": "NTUC FairPrice",
+   "names": [
+    "FAIRPRICE FINEST",
+    "NTUC FP",
+    "FINEST QUAR",
+    "FAIRPRICE",
+    "NTUC FAIRPRICE"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1",
+     "s6",
+     "s15",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "heymaxBrand": "NTUC FairPrice",
+   "origin": "brian_top",
+   "note": "FairPrice app orders also code 5411 (community reports). HeyMax FairPrice vouchers should code 5311 (s1) but community reports show some coded 5411 in 2026; check before relying on the voucher route."
+  },
+  {
+   "id": "overseas-public-transport",
+   "displayName": "Overseas public transport",
+   "names": [
+    "MTR RIDES",
+    "MT TAIPEI RA",
+    "HONG KONG TR",
+    "MTR"
+   ],
+   "category": "transport",
+   "mcc": {
+    "v": "4111",
+    "s": [
+     "s25"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: commuter rail and metro code 4111 (SimplyGo example, s25). No overseas operator is named in any source. Foreign currency rate applies."
+  },
+  {
+   "id": "didi",
+   "displayName": "Didi",
+   "names": [
+    "ALP*DIDI TAXI",
+    "ALP*DIDI",
+    "DIDI"
+   ],
+   "category": "ride_hailing",
+   "mcc": {
+    "v": "5399",
+    "s": [
+     "s17"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "4121"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Paid through Alipay (ALP* prefix), so Alipay is probably the merchant of record (community report 5399, see alipay-qr). Direct Didi taxi spend would be 4121."
+  },
+  {
+   "id": "starbucks",
+   "displayName": "Starbucks",
+   "names": [
+    "STARBUCKS",
+    "STARBUCKS SL2"
+   ],
+   "category": "fast_food",
+   "mcc": {
+    "v": "5814",
+    "s": [
+     "s6",
+     "s25",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "MCC trap: Starbucks codes as fast food (5814), not dining, so it misses dining bonuses (HSBC Revolution calls it the wrong card). One overseas outlet reported 5999. Community wiki also lists 4111 and 5499 for unnamed outlets."
+  },
+  {
+   "id": "watsons",
+   "displayName": "Watsons",
+   "names": [
+    "WATSONS",
+    "WATSONS M"
+   ],
+   "category": "pharmacy",
+   "mcc": {
+    "v": "5912",
+    "s": [
+     "s11",
+     "s16",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "mccAlt": [
+    "5499"
+   ],
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Community wiki also lists 5499 for some outlets. OCBC Rewards awards Watsons bonuses by merchant name (s22)."
+  },
+  {
+   "id": "shopback-bakery",
+   "displayName": "ShopBack Bakery Cu",
+   "names": [
+    "2C2*SHOPBACK BAKERY",
+    "SHOPBACK BAKERY"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": null,
+    "s": [
+     "s11",
+     "s17"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5812",
+    "5814",
+    "5311",
+    "7299"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Merchant unclear (2C2* looks like the 2C2P gateway). ShopBack-linked purchases have been reported at 5812, 5814, 5311 and 7299, and a declined attempt can show a different code from the successful one. Falls back to the dining default."
+  },
+  {
+   "id": "sheng-siong",
+   "displayName": "Sheng Siong",
+   "names": [
+    "SHENG SIONG"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1",
+     "s6",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "heymaxBrand": "Sheng Siong",
+   "origin": "brian_top",
+   "note": "Sheng Siong HeyMax vouchers code 5311 (s1) but earn very little Max Miles; see brandRates."
+  },
+  {
+   "id": "golden-cafe",
+   "displayName": "Golden Cafe Group",
+   "names": [
+    "GOLDEN CAFE",
+    "SMP**GOLDEN CAFE"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5814"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level guess; cafes have been reported under 5814 (s7). The SMP** prefix may be a payment facilitator."
+  },
+  {
+   "id": "mcdonalds",
+   "displayName": "McDonald's",
+   "names": [
+    "MCDONALD'S",
+    "MCDONALDS",
+    "MCDONALD S"
+   ],
+   "category": "fast_food",
+   "mcc": {
+    "v": "5814",
+    "s": [
+     "s7",
+     "s6",
+     "s15",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Fast food 5814, not dining. McDelivery also codes 5814 (s8)."
+  },
+  {
+   "id": "meituan",
+   "displayName": "Meituan",
+   "names": [
+    "MEITUAN"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": "5399",
+    "s": [
+     "s17"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5812"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Raw descriptor in Brian's data is the Alipay ALP* line with the payee redacted, so the real merchant is not visible. Alipay-routed payments were reported as 5399 (see alipay-qr)."
+  },
+  {
+   "id": "apple-bill",
+   "displayName": "Apple (App Store / iCloud)",
+   "names": [
+    "APPLE.COM/BILL",
+    "APPLE.COM/BI",
+    "APPLE.COM BILL"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": "5735",
+    "s": [
+     "s20",
+     "s11"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5732"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Community report puts Apple Music at 5735 and Apple stores at 5732; no source gives APPLE.COM/BILL specifically. Digital subscriptions bill in the local currency of the Apple ID, so the foreign currency rate may not apply. Amex and several cards treat some digital goods as base only."
+  },
+  {
+   "id": "so-good",
+   "displayName": "So Good",
+   "names": [
+    "SO GOOD"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5814"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level guess; format unconfirmed (5814 is possible)."
+  },
+  {
+   "id": "cheers",
+   "displayName": "Cheers",
+   "names": [
+    "CHEERS"
+   ],
+   "category": "groceries",
+   "mcc": {
+    "v": "5499",
+    "s": [
+     "s6",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "MCC trap: convenience stores code 5499 (misc food stores), not 5411. 5499 is outside the HSBC Revolution dining whitelist."
+  },
+  {
+   "id": "foodpanda",
+   "displayName": "foodpanda",
+   "names": [
+    "FP*FOOD PANDA",
+    "FOODPANDA",
+    "FOOD PANDA"
+   ],
+   "category": "food_delivery",
+   "mcc": {
+    "v": "5814",
+    "s": [
+     "s8",
+     "s25"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5812",
+    "5499"
+   ],
+   "channels": [
+    "online"
+   ],
+   "heymaxBrand": "foodpanda",
+   "origin": "brian_top",
+   "note": "MCC trap: switches between 5812 and 5814 (MileLion, HSBC Revolution review) and was listed at 5499 by MoneySmart and Money Bees. DBS yuu gives a bonus at foodpanda food delivery by merchant name (not vouchers, pandapro, pandago). HeyMax foodpanda vouchers pay only 0.6 Max Miles per S$1."
+  },
+  {
+   "id": "welcia",
+   "displayName": "Welcia",
+   "names": [
+    "WELCIA SG",
+    "WELCIA"
+   ],
+   "category": "pharmacy",
+   "mcc": {
+    "v": "5912",
+    "s": [
+     "s17"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5311"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Community wiki lists 5912 and 5311, both labelled as AI-suggested reference data, not verified."
+  },
+  {
+   "id": "helloride",
+   "displayName": "HelloRide",
+   "names": [
+    "HELLORIDE_SG",
+    "HELLORIDE"
+   ],
+   "category": "transport",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Bike-sharing app; no data point found. Mobility apps code unpredictably (Ryde is 5734 per MoneySmart). Falls back to the transport default."
+  },
+  {
+   "id": "jasons-market-place",
+   "displayName": "Jasons Market Place",
+   "names": [
+    "JASONS MARKET",
+    "JASONS DELI",
+    "JASONS"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "MileLion names Jasons Deli and Market Place under 5411. DBS yuu bonus covers Jasons Deli by name."
+  },
+  {
+   "id": "gardenia",
+   "displayName": "Gardenia",
+   "names": [
+    "GARDENIA FOODS",
+    "GARDENIA"
+   ],
+   "category": "groceries",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5462",
+    "5411"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "No data point found. A Gardenia outlet or bakery could code 5462 (bakeries) or 5411. Falls back to the groceries default."
+  },
+  {
+   "id": "overseas-qr-kpay-eftpay",
+   "displayName": "Malaysia / HK QR (KPAY, EFTPay)",
+   "names": [
+    "KPAY",
+    "EFTPAY"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Payee redacted; the MCC belongs to the underlying payee. Set an override per transaction."
+  },
+  {
+   "id": "m1",
+   "displayName": "M1",
+   "names": [
+    "M1 LIMITED_M1APP+",
+    "M1 LIMITED",
+    "M1"
+   ],
+   "category": "telco",
+   "mcc": {
+    "v": "4814",
+    "s": [
+     "s9"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: telco bills code 4814 (s9 does not name providers). Payments through AXS earn nothing on most cards."
+  },
+  {
+   "id": "tori-q",
+   "displayName": "Tori-Q",
+   "names": [
+    "TORI-Q"
+   ],
+   "exactNames": [
+    "TORI"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5812",
+    "s": [
+     "s7"
+    ],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Category-level: restaurants code 5812 (s7). The bare descriptor TORI is an exact name only."
+  },
+  {
+   "id": "popular-bookstore",
+   "displayName": "Popular Bookstore",
+   "names": [
+    "POPULAR BOOK",
+    "POPULAR BOOKSTORE"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": "5942",
+    "s": [
+     "s17",
+     "s11"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5943",
+    "5399",
+    "5311"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Community wiki lists 5942, 5943, 5399, 5311 and 5735 for Popular; 5942 (book stores) is the natural fit and Kinokuniya is 5942 (s11), but no source pins the code."
+  },
+  {
+   "id": "takashimaya",
+   "displayName": "Takashimaya",
+   "names": [
+    "TAKASHIMAYA"
+   ],
+   "exactNames": [
+    "ONLINE STO"
+   ],
+   "category": "department_store",
+   "mcc": {
+    "v": "5311",
+    "s": [
+     "s17",
+     "s11"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5814"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Department store 5311. Basement food stalls and fairs can code 5814 (user reports to May 2026). The descriptor ONLINE STO in Brian's data is ambiguous and is only an exact name."
+  },
+  {
+   "id": "kinokuniya",
+   "displayName": "Kinokuniya",
+   "names": [
+    "KINOKUNIYA"
+   ],
+   "category": "other",
+   "mcc": {
+    "v": "5942",
+    "s": [
+     "s11"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "MileLion's online MCC table lists Kinokuniya under 5942 (book stores). In-store at Takashimaya the acquirer may differ."
+  },
+  {
+   "id": "little-farms",
+   "displayName": "Little Farms",
+   "names": [
+    "LITTLE FARMS"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "mccAlt": [
+    "5812"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "brian_top",
+   "note": "Named in MileLion's supermarket article; restaurant outlets (the community wiki also lists 5812) may differ."
+  },
+  {
+   "id": "7-eleven",
+   "displayName": "7-Eleven",
+   "names": [
+    "7-ELEVEN",
+    "7 ELEVEN"
+   ],
+   "exactNames": [
+    "7"
+   ],
+   "category": "groceries",
+   "mcc": {
+    "v": "5499",
+    "s": [
+     "s6",
+     "s25",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "heymaxBrand": "7-Eleven",
+   "origin": "brian_top",
+   "note": "MCC trap: convenience store code 5499, not 5411; some terminals report 5814. 5499 misses dining bonuses. The raw descriptor in Brian's data is just 7, which is too generic to match as a substring, so it is an exact name only. HeyMax 7-Eleven vouchers exist (no rate published)."
+  },
+  {
+   "id": "amazon-sg",
+   "displayName": "Amazon.sg",
+   "names": [
+    "AMAZON.SG",
+    "AMAZON SG",
+    "AMAZON RETAIL SG",
+    "AMAZON MARKETPLACE SG",
+    "AMAZON"
+   ],
+   "category": "online_shopping",
+   "mcc": {
+    "v": "5999",
+    "s": [
+     "s15",
+     "s11",
+     "s17"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5311"
+   ],
+   "channels": [
+    "online"
+   ],
+   "heymaxBrand": "Amazon.sg",
+   "origin": "common",
+   "note": "MCC trap: Amazon Retail SG codes 5999 but marketplace or Amaze-routed orders have posted 5311 (community, Nov 2024), and tests showed the attempted and settled codes can differ. Amazon Web Services is a professional service and excluded on some cards."
+  },
+  {
+   "id": "apple",
+   "displayName": "Apple (stores and online store)",
+   "names": [
+    "APPLE STORE",
+    "APPLE ONLINE STORE",
+    "APPLE ORCHARD ROAD",
+    "APPLE.COM/SG"
+   ],
+   "category": "electronics",
+   "mcc": {
+    "v": "5732",
+    "s": [
+     "s11",
+     "s17",
+     "s20"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5735",
+    "5045"
+   ],
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "Apple retail and online store hardware 5732 (community lists 5045, 5732, 5812 for Apple stores). For App Store and iCloud use apple-bill."
+  },
+  {
+   "id": "uniqlo",
+   "displayName": "Uniqlo",
+   "names": [
+    "UNIQLO"
+   ],
+   "category": "clothing",
+   "mcc": {
+    "v": "5651",
+    "s": [
+     "s15",
+     "s16",
+     "s17"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5691"
+   ],
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "Family clothing 5651 in MoneySmart and Money Bees; community wiki also lists 5691. Both are on the main apparel bonus lists. Uniqlo vouchers bought through ShopBack posted as 5311."
+  },
+  {
+   "id": "ikea",
+   "displayName": "IKEA",
+   "names": [
+    "IKEA"
+   ],
+   "category": "department_store",
+   "mcc": {
+    "v": "5712",
+    "s": [
+     "s6",
+     "s15",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "heymaxBrand": "IKEA",
+   "origin": "common",
+   "note": "MCC trap: furniture 5712 is outside most bonus categories. The IKEA restaurant codes 5814. HeyMax IKEA vouchers (code 5311, about 1 Max Mile per S$1) are the usual workaround."
+  },
+  {
+   "id": "agoda",
+   "displayName": "Agoda",
+   "names": [
+    "AGODA"
+   ],
+   "category": "travel_agency",
+   "mcc": {
+    "v": "4722",
+    "s": [
+     "s4",
+     "s5",
+     "s6",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "common",
+   "note": "MCC trap: 4722 (travel agency) is base only on HSBC Revolution and excluded from travel bonuses on others. Pay-at-hotel bookings code as the hotel instead (s4). A UOB Lady's holder reported 4722 not counting as Travel (Apr 2026)."
+  },
+  {
+   "id": "booking-com",
+   "displayName": "Booking.com",
+   "names": [
+    "BOOKING.COM",
+    "BOOKING COM"
+   ],
+   "category": "travel_agency",
+   "mcc": {
+    "v": "4722",
+    "s": [
+     "s4",
+     "s5",
+     "s6"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "common",
+   "note": "MCC trap: 4722 when prepaid online; pay-at-property rates code as the hotel (s4)."
+  },
+  {
+   "id": "klook",
+   "displayName": "Klook",
+   "names": [
+    "KLOOK"
+   ],
+   "category": "travel_agency",
+   "mcc": {
+    "v": "4722",
+    "s": [
+     "s6",
+     "s17",
+     "s19"
+    ],
+    "confidence": "high"
+   },
+   "mccAlt": [
+    "7991"
+   ],
+   "channels": [
+    "online"
+   ],
+   "heymaxBrand": "Klook",
+   "origin": "common",
+   "note": "MCC trap: 4722 for the OTA; attraction tickets often code 7991. HeyMax Klook vouchers should code 5311 but some posted as 5411 in 2026 (community, since fixed per the same report)."
+  },
+  {
+   "id": "singtel",
+   "displayName": "Singtel",
+   "names": [
+    "SINGTEL",
+    "SINGTEL SHOP"
+   ],
+   "category": "telco",
+   "mcc": {
+    "v": "4814",
+    "s": [
+     "s9",
+     "s16",
+     "s17"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "4812",
+    "5999"
+   ],
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "Bills 4814 (MileLion, Money Bees; community lists 4812, 4814). In-app payments route through AXS and earn nothing on Citi; kiosk contactless posted as 5999. Some Singtel kiosks do not accept Amex (s18); the partial refusal is recorded here, not in notAccepted. Shop and exclusive retailer purchases get a DBS yuu bonus by name."
+  },
+  {
+   "id": "shell",
+   "displayName": "Shell",
+   "names": [
+    "SHELL",
+    "SHELL STATION"
+   ],
+   "category": "petrol",
+   "mcc": {
+    "v": "5541",
+    "s": [
+     "s10",
+     "s16",
+     "s17"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5542"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "heymaxBrand": "Shell",
+   "origin": "common",
+   "note": "Petrol stations code 5541 (5542 for pay-at-pump), generic evidence plus a community page listing 5541 for Shell. Petrol is excluded from most bonus categories. Shell Select shop purchases may code separately."
+  },
+  {
+   "id": "esso",
+   "displayName": "Esso",
+   "names": [
+    "ESSO"
+   ],
+   "category": "petrol",
+   "mcc": {
+    "v": "5541",
+    "s": [
+     "s10",
+     "s16"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5542"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "common",
+   "note": "Generic petrol code; chain not individually sourced. Cold Storage On The Go inside Esso stations is excluded from the DBS yuu bonus."
+  },
+  {
+   "id": "spc",
+   "displayName": "SPC",
+   "names": [
+    "SPC",
+    "SPC SERVICE STATION"
+   ],
+   "category": "petrol",
+   "mcc": {
+    "v": "5541",
+    "s": [
+     "s10",
+     "s16"
+    ],
+    "confidence": "medium"
+   },
+   "mccAlt": [
+    "5542"
+   ],
+   "channels": [
+    "offline"
+   ],
+   "origin": "common",
+   "note": "Generic petrol code. Amex Platinum excludes SPC service stations from earn."
+  },
+  {
+   "id": "trip-com",
+   "displayName": "Trip.com",
+   "names": [
+    "TRIP.COM",
+    "TRIP COM",
+    "TRIPCOM"
+   ],
+   "category": "travel_agency",
+   "mcc": {
+    "v": "4722",
+    "s": [
+     "s2",
+     "s6"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "common",
+   "note": "MCC trap: 4722 travel agency, base only on HSBC Revolution."
+  },
+  {
+   "id": "expedia",
+   "displayName": "Expedia",
+   "names": [
+    "EXPEDIA"
+   ],
+   "category": "travel_agency",
+   "mcc": {
+    "v": "4722",
+    "s": [
+     "s2",
+     "s5",
+     "s6"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "online"
+   ],
+   "origin": "common",
+   "note": "Booking through Expedia codes 4722, not the airline or hotel code."
+  },
+  {
+   "id": "don-don-donki",
+   "displayName": "Don Don Donki",
+   "names": [
+    "DON DON DONKI",
+    "DONKI"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5411",
+    "s": [
+     "s1",
+     "s15"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "common",
+   "note": "Named under 5411 by MileLion and MoneySmart. GrabMart orders from Don Don Donki have coded 5814 (community)."
+  },
+  {
+   "id": "challenger",
+   "displayName": "Challenger",
+   "names": [
+    "CHALLENGER"
+   ],
+   "category": "electronics",
+   "mcc": {
+    "v": "5732",
+    "s": [
+     "s15"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "Single source (MoneySmart, Jan 2026)."
+  },
+  {
+   "id": "isetan",
+   "displayName": "Isetan",
+   "names": [
+    "ISETAN"
+   ],
+   "category": "department_store",
+   "mcc": {
+    "v": "5311",
+    "s": [
+     "s11"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "heymaxBrand": "Isetan",
+   "origin": "common",
+   "note": "Department store 5311. A HeyMax Isetan voucher exists (no rate published)."
+  },
+  {
+   "id": "marks-and-spencer",
+   "displayName": "Marks & Spencer",
+   "names": [
+    "MARKS & SPENCER",
+    "MARKS AND SPENCER",
+    "M&S"
+   ],
+   "category": "department_store",
+   "mcc": {
+    "v": "5311",
+    "s": [
+     "s11",
+     "s17"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "5311 per MileLion and a community report (Citi Rewards via Samsung Pay, Jun 2026)."
+  },
+  {
+   "id": "zara",
+   "displayName": "Zara",
+   "names": [
+    "ZARA"
+   ],
+   "category": "clothing",
+   "mcc": {
+    "v": "5691",
+    "s": [
+     "s15"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "Single source (MoneySmart, Jan 2026): men's and women's clothing 5691."
+  },
+  {
+   "id": "ya-kun",
+   "displayName": "Ya Kun Kaya Toast",
+   "names": [
+    "YA KUN",
+    "YA KUN KAYA TOAST"
+   ],
+   "category": "fast_food",
+   "mcc": {
+    "v": "5814",
+    "s": [
+     "s6"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "common",
+   "note": "Mainly Miles lists most Ya Kun outlets as 5814, so it is not dining on HSBC Revolution."
+  },
+  {
+   "id": "kfc",
+   "displayName": "KFC",
+   "names": [
+    "KFC"
+   ],
+   "category": "fast_food",
+   "mcc": {
+    "v": "5814",
+    "s": [
+     "s7"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "Named as a 5814 example by MileLion."
+  },
+  {
+   "id": "burger-king",
+   "displayName": "Burger King",
+   "names": [
+    "BURGER KING"
+   ],
+   "category": "fast_food",
+   "mcc": {
+    "v": "5814",
+    "s": [
+     "s7"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "Named as a 5814 example by MileLion."
+  },
+  {
+   "id": "dominos",
+   "displayName": "Domino's",
+   "names": [
+    "DOMINO'S",
+    "DOMINOS",
+    "DOMINO S"
+   ],
+   "category": "fast_food",
+   "mcc": {
+    "v": "5811",
+    "s": [
+     "s15",
+     "s8"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5814"
+   ],
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "MCC trap: MoneySmart lists Domino's as caterers (5811) while MileLion says Domino's own delivery codes 5814. Sources conflict."
+  },
+  {
+   "id": "bengawan-solo",
+   "displayName": "Bengawan Solo",
+   "names": [
+    "BENGAWAN SOLO"
+   ],
+   "category": "dining",
+   "mcc": {
+    "v": "5462",
+    "s": [
+     "s7",
+     "s15"
+    ],
+    "confidence": "high"
+   },
+   "channels": [
+    "offline"
+   ],
+   "origin": "common",
+   "note": "Bakery 5462 per MileLion and MoneySmart. Some bakeries have been reported under 5814."
+  },
+  {
+   "id": "comfort-cabs",
+   "displayName": "ComfortDelGro / CityCab",
+   "names": [
+    "COMFORT",
+    "COMFORTDELGRO",
+    "CITYCAB"
+   ],
+   "category": "ride_hailing",
+   "mcc": {
+    "v": "4121",
+    "s": [
+     "s15"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "origin": "common",
+   "note": "Comfort taxis 4121 (MoneySmart, Jan 2026). Booking through the ComfortDelGro app may route differently; unverified."
+  },
+  {
+   "id": "ryde",
+   "displayName": "Ryde",
+   "names": [
+    "RYDE"
+   ],
+   "category": "ride_hailing",
+   "mcc": {
+    "v": "5734",
+    "s": [
+     "s15"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "online"
+   ],
+   "heymaxBrand": "Ryde",
+   "origin": "common",
+   "note": "MCC trap: MoneySmart reports Ryde codes 5734 (computer software stores), not a taxi code, so it can miss transport bonuses. HeyMax Ryde vouchers pay a high Max Miles rate."
+  },
+  {
+   "id": "ishopchangi",
+   "displayName": "iShopChangi",
+   "names": [
+    "ISHOPCHANGI",
+    "ISHOP CHANGI"
+   ],
+   "category": "online_shopping",
+   "mcc": {
+    "v": "4582",
+    "s": [
+     "s15"
+    ],
+    "confidence": "medium"
+   },
+   "channels": [
+    "online"
+   ],
+   "heymaxBrand": "iShopChangi",
+   "origin": "common",
+   "note": "MCC trap: MoneySmart says iShopChangi codes as the airport (4582) and earns no card rewards. HeyMax iShopChangi vouchers pay Max Miles, which is the better route."
+  },
+  {
+   "id": "redmart",
+   "displayName": "RedMart",
+   "names": [
+    "REDMART"
+   ],
+   "category": "supermarket",
+   "mcc": {
+    "v": "5262",
+    "s": [
+     "s1",
+     "s15",
+     "s11"
+    ],
+    "confidence": "low"
+   },
+   "mccAlt": [
+    "5411"
+   ],
+   "channels": [
+    "online"
+   ],
+   "origin": "common",
+   "note": "MCC trap: MileLion (Jan 2026) says RedMart moved to 5262 (marketplaces) late 2025 but is untested; MoneySmart and older MileLion tables say 5411. Shopee and Lazada groceries coded 5411 are excluded by OCBC."
+  },
+  {
+   "id": "sephora",
+   "displayName": "Sephora",
+   "names": [
+    "SEPHORA"
+   ],
+   "category": "beauty",
+   "mcc": {
+    "v": null,
+    "s": [],
+    "confidence": "low"
+   },
+   "channels": [
+    "offline",
+    "online"
+   ],
+   "heymaxBrand": "Sephora",
+   "origin": "common",
+   "note": "No MCC data point found. HeyMax Sephora vouchers pay a high Max Miles rate and code 5311, which is why the merchant is listed. Falls back to the beauty default."
+  }
+ ],
+ "categoryDefaults": {
+  "dining": {
+   "mcc": "5812",
+   "confidence": "low",
+   "s": [
+    "s7",
+    "s26"
+   ],
+   "note": "Restaurants. Cafes are often 5814 and hotel restaurants may take the hotel code."
+  },
+  "fast_food": {
+   "mcc": "5814",
+   "confidence": "low",
+   "s": [
+    "s7",
+    "s29"
+   ],
+   "note": "Fast food chains, many cafes and bakeries."
+  },
+  "food_delivery": {
+   "mcc": "5814",
+   "confidence": "low",
+   "s": [
+    "s8",
+    "s25"
+   ],
+   "note": "Delivery platforms switch between 5812, 5814 and 5499."
+  },
+  "groceries": {
+   "mcc": "5411",
+   "confidence": "low",
+   "s": [
+    "s1"
+   ],
+   "note": "Convenience stores are 5499; use the merchant record where known."
+  },
+  "supermarket": {
+   "mcc": "5411",
+   "confidence": "low",
+   "s": [
+    "s1",
+    "s6"
+   ],
+   "note": "All major Singapore supermarkets. Online and marketplace grocers can differ (5262, 5311 via HeyMax)."
+  },
+  "department_store": {
+   "mcc": "5311",
+   "confidence": "low",
+   "s": [
+    "s28",
+    "s26"
+   ],
+   "note": "Department stores. Food fairs can code 5814."
+  },
+  "clothing": {
+   "mcc": "5691",
+   "confidence": "low",
+   "s": [
+    "s15",
+    "s26"
+   ],
+   "note": "Family clothing stores are 5651; this is the more common apparel code in MoneySmart's list."
+  },
+  "shoes": {
+   "mcc": "5661",
+   "confidence": "low",
+   "s": [
+    "s15",
+    "s28"
+   ],
+   "note": "Shoe stores."
+  },
+  "bags": {
+   "mcc": "5948",
+   "confidence": "low",
+   "s": [
+    "s28",
+    "s26"
+   ],
+   "note": "Luggage and leather goods stores."
+  },
+  "electronics": {
+   "mcc": "5732",
+   "confidence": "low",
+   "s": [
+    "s15",
+    "s26"
+   ],
+   "note": "Electronics stores; appliance stores can be 5722."
+  },
+  "online_shopping": {
+   "mcc": "5999",
+   "confidence": "low",
+   "s": [
+    "s15",
+    "s22",
+    "s17"
+   ],
+   "note": "Marketplaces use many codes (5262, 5311, 5399, 5999). Check the merchant record."
+  },
+  "transport": {
+   "mcc": "4111",
+   "confidence": "low",
+   "s": [
+    "s6",
+    "s25"
+   ],
+   "note": "Local commuter transport. Taxis and ride-hailing are 4121."
+  },
+  "ride_hailing": {
+   "mcc": "4121",
+   "confidence": "low",
+   "s": [
+    "s6",
+    "s15"
+   ],
+   "note": "Taxis and ride-hailing."
+  },
+  "airline": {
+   "mcc": "4511",
+   "confidence": "low",
+   "s": [
+    "s2",
+    "s26"
+   ],
+   "note": "Most airlines carry their own code in 3000-3350; this generic code is inside the same bonus categories."
+  },
+  "hotel": {
+   "mcc": "7011",
+   "confidence": "low",
+   "s": [
+    "s4",
+    "s5"
+   ],
+   "note": "Chain hotels often use 3501-3999 instead; Maybank XL counts only 7011."
+  },
+  "travel_agency": {
+   "mcc": "4722",
+   "confidence": "low",
+   "s": [
+    "s4",
+    "s6"
+   ],
+   "note": "Online travel agencies are base only on several cards."
+  },
+  "entertainment": {
+   "mcc": "7999",
+   "confidence": "low",
+   "s": [
+    "s27"
+   ],
+   "note": "Best guess for recreation and attractions (recreation services NEC). Cinemas are 7832 and attractions are sometimes 7991. No Singapore data point."
+  },
+  "events_tickets": {
+   "mcc": "7922",
+   "confidence": "low",
+   "s": [
+    "s27"
+   ],
+   "note": "Ticket agencies; sports and venue ticketing can also code 7941 or 7999. No Singapore data point."
+  },
+  "pharmacy": {
+   "mcc": "5912",
+   "confidence": "low",
+   "s": [
+    "s11",
+    "s26"
+   ],
+   "note": "Drug stores and pharmacies."
+  },
+  "beauty": {
+   "mcc": "7230",
+   "confidence": "low",
+   "s": [
+    "s27"
+   ],
+   "note": "Beauty and barber shops; cosmetics retailers can be 5977."
+  },
+  "medical": {
+   "mcc": "8099",
+   "confidence": "low",
+   "s": [
+    "s30"
+   ],
+   "note": "Health practitioners NEC. Hospitals (8062) and clinics (8011) differ and are often excluded or capped as bill payments."
+  },
+  "insurance": {
+   "mcc": "6300",
+   "confidence": "low",
+   "s": [
+    "s12",
+    "s13"
+   ],
+   "note": "Insurers use 5960 or 6300; zero or base only on most cards."
+  },
+  "utilities": {
+   "mcc": "4900",
+   "confidence": "low",
+   "s": [
+    "s9",
+    "s30"
+   ],
+   "note": "Zero earn on most stack cards."
+  },
+  "telco": {
+   "mcc": "4814",
+   "confidence": "low",
+   "s": [
+    "s9"
+   ],
+   "note": "Telco bills. Often excluded or routed through AXS."
+  },
+  "petrol": {
+   "mcc": "5541",
+   "confidence": "low",
+   "s": [
+    "s10"
+   ],
+   "note": "Service stations; 5542 for automated pumps."
+  },
+  "education": {
+   "mcc": "8299",
+   "confidence": "low",
+   "s": [
+    "s30"
+   ],
+   "note": "Schools and educational services NEC; 8211, 8220 and others also used. Zero earn on most cards."
+  },
+  "government": {
+   "mcc": "9399",
+   "confidence": "low",
+   "s": [
+    "s30"
+   ],
+   "note": "Government services NEC; taxes are 9311. Zero earn on most cards."
+  },
+  "charity": {
+   "mcc": "8398",
+   "confidence": "low",
+   "s": [
+    "s30"
+   ],
+   "note": "Charitable and social service organisations. Zero earn on most cards."
+  },
+  "fitness": {
+   "mcc": "7997",
+   "confidence": "low",
+   "s": [
+    "s26",
+    "s27"
+   ],
+   "note": "Clubs and memberships; gyms can also code 7941 or 7991."
+  },
+  "other": {
+   "mcc": null,
+   "confidence": "none",
+   "s": [],
+   "note": "No default. Set a category or override the MCC."
+  }
+ },
+ "sources": {
+  "s1": {
+   "url": "https://milelion.com/2026/01/18/best-credit-cards-for-supermarkets/",
+   "title": "MileLion: 2026 Edition: Best Credit Cards for Supermarkets (18 Jan 2026)",
+   "type": "blog",
+   "quote": "All major supermarkets in Singapore will code as MCC 5411 (Grocery Stores, Supermarkets)",
+   "note": "Names Cold Storage, Don Don Donki, Giant, Jasons Deli, Little Farms, Market Place, NTUC FairPrice, Sheng Siong. HeyMax FairPrice, Giant and Sheng Siong vouchers code 5311. RedMart under Lazada appears to have moved to 5262."
+  },
+  "s2": {
+   "url": "https://milelion.com/2025/05/07/best-credit-cards-for-airline-tickets/",
+   "title": "MileLion: 2026 Edition: Best Credit Cards for Air Tickets (11 Feb 2026)",
+   "type": "blog",
+   "quote": "Singapore Airlines codes as MCC 3075",
+   "note": "Also: some carriers like Scoot may fall under MCC 4511; Expedia, Trip.com and Skyscanner code as 4722; direct airline bookings are 3000 to 3350 or 4511."
+  },
+  "s3": {
+   "url": "https://www.bpi.com.ph/personal/rewards-and-promotions/promos/bpi-rewards-accelerator-promo/complete-mcc-list-of-airline-and-hotel-merchant-categories",
+   "title": "BPI: Complete MCC list of airline and hotel merchant categories (undated issuer list reproducing the network tables)",
+   "type": "issuer_list",
+   "quote": "Singapore Airlines: SINGAPOR | 3075; Cathay Pacific: CATHAYPA | 3099; Malaysian Airline System: MALAY AI | 3100; Hilton | 3504; Hyatt Hotels | 3640; Kimpton Hotels | 3838; Holiday Inns | 3501",
+   "note": "The airline descriptors in the table (SINGAPOR, CATHAYPA, MALAY AI) match the raw statement descriptors in the top merchants file. Scoot not listed. Undated."
+  },
+  "s4": {
+   "url": "https://milelion.com/2026/02/25/best-credit-cards-for-hotels",
+   "title": "MileLion: 2026 Edition: Best Credit Cards for Hotels (25 Feb 2026)",
+   "type": "blog",
+   "quote": "MCC 3501-3999 (Major hotel chains), but a chain property may still code as 7011",
+   "note": "Agoda and Booking.com code 4722 when paid online at booking; Airbnb codes 7011; hotel points bought via Points.com code 7399."
+  },
+  "s5": {
+   "url": "https://www.singsaver.com.sg/credit-card/blog/best-credit-card-for-booking-flights-and-hotels",
+   "title": "SingSaver: Best credit card to book flights and hotels (26 Aug 2026)",
+   "type": "blog",
+   "quote": "booking via an OTA like Agoda or Booking.com codes as MCC 4722",
+   "note": "Smaller hotels and Airbnb typically code 7011; chain hotels paid direct 3500 to 3999."
+  },
+  "s6": {
+   "url": "https://mainlymiles.com/2026/08/12/hsbc-revolution-review-2026/",
+   "title": "Mainly Miles: HSBC Revolution review 2026 (12 Aug 2026)",
+   "type": "blog",
+   "quote": "Booking a hotel through Agoda or an experience through Klook earns 0.4 mpd",
+   "note": "Per-merchant MCC examples: Klook, Agoda, Booking.com, Trip.com 4722; Starbucks and McDonald's 5814; 7-Eleven and Cheers 5499; FairPrice, Cold Storage, Sheng Siong, Giant 5411; IKEA 5712; SimplyGo 4111; Grab ride-hailing 4121; airlines 3000-3350 or 4511; petrol 5541; GrabPay top-ups excluded as e-wallet loads."
+  },
+  "s7": {
+   "url": "https://milelion.com/2026/10/08/best-credit-cards-for-dining/",
+   "title": "MileLion: 2026 Edition: Best Credit Cards for Dining (8 Oct 2026)",
+   "type": "blog",
+   "quote": "Restaurants 5812 (Crystal Jade, Jumbo Seafood, Paradise Group); fast food 5814 (Burger King, McDonald's, KFC); bakeries 5462 (BreadTalk, Bengawan Solo, Four Leaves)",
+   "note": "Cafes have been reported under 5814 (PS Cafe, Cafe Nesuto). Hotel restaurants may code as the hotel. MCCs are not always straightforward."
+  },
+  "s8": {
+   "url": "https://milelion.com/2020/04/24/what-are-the-best-cards-for-online-food-delivery",
+   "title": "MileLion: 2026 Edition: Best Credit Cards for Food Delivery (12 Oct 2026)",
+   "type": "blog",
+   "quote": "Food delivery usually codes as MCC 5814; FoodPanda and GrabFood have historically used MCCs 5812 and 5814",
+   "note": "McDonald's and Domino's in-house delivery code 5814. Deliveroo exited Singapore in March 2026."
+  },
+  "s9": {
+   "url": "https://milelion.com/2026/01/16/whats-the-best-credit-card-to-use-for-electricity-utilities-bills/",
+   "title": "MileLion: 2026 Edition: Best Credit Cards for Electricity and Utilities Bills (16 Jan 2026)",
+   "type": "blog",
+   "quote": "the transaction will code as MCC 4900 (Utilities: Electric, Gas, Heating Oil, Sanitary, Water)",
+   "note": "Telco bills code under MCC 4814 (providers not named in the article)."
+  },
+  "s10": {
+   "url": "https://milelion.com/2026/01/23/what-are-the-best-credit-cards-for-petrol/",
+   "title": "MileLion: 2026 Edition: Best Credit Cards for Petrol (23 Jan 2026)",
+   "type": "blog",
+   "quote": "MCC 5541 Service Stations; MCC 5542 Automated Fuel Dispensers",
+   "note": "5541 is much more common in Singapore; cards rewarding 5541 also reward 5542. Chain-level codes not given."
+  },
+  "s11": {
+   "url": "https://milelion.com/2025/06/23/how-to-turn-offline-spend-into-online-spend",
+   "title": "MileLion: How to turn offline spend into online spend (23 Jun 2025, updated)",
+   "type": "blog",
+   "quote": "Merchant examples per MCC: Guardian, NTUC Unity, Watsons 5912; Kinokuniya 5942; Taobao, Isetan, Marks & Spencer 5311; Amazon 5999; Apple 5732 to 5735; Lazada Redmart 5411",
+   "note": "Also lists HeyMax vouchers as MCC 5311 and Grab/GrabFood example codes. Example lists are from online MCC tables; offline codes may differ."
+  },
+  "s12": {
+   "url": "https://milelion.com/2024/01/23/whats-the-best-credit-card-for-paying-insurance-premiums",
+   "title": "MileLion: 2026 Edition: Best Credit Cards for Insurance Premiums (5 Jan 2026)",
+   "type": "blog",
+   "quote": "Insurance transactions code under two main MCCs: 5960 and 6300",
+   "note": "Insurers are not mapped individually to a code."
+  },
+  "s13": {
+   "url": "https://www.singsaver.com.sg/credit-card/blog/best-insurance-premium-credit-cards-singapore",
+   "title": "SingSaver: Best Credit Cards For Insurance Payments in Singapore (updated 11 Mar 2026)",
+   "type": "blog",
+   "quote": "Insurers usually carry MCC 5960 (direct marketing insurance services) or MCC 6300 (insurance sales and underwriting)",
+   "note": "States AIA and AXA accept American Express (UOB Absolute Cashback section). This conflicts with AIA's own FAQ for later policy years (s14)."
+  },
+  "s14": {
+   "url": "https://www.aia.com.sg/en/help-support/faq/policy-premium-payment",
+   "title": "AIA Singapore FAQ: policy premium payment (undated)",
+   "type": "issuer_faq",
+   "quote": "For premium payments beyond first year, only MASTERCARD is allowed. VISA & AMEX cards are allowed ONLY for payment of the 1st policy year premium.",
+   "note": "Also asks for a Singapore issued Mastercard credit card for one-time payments. Payment form PT0024017 (2018 to 2019 revisions) shows the same split."
+  },
+  "s15": {
+   "url": "https://blog.moneysmart.sg/credit-cards/mcc-codes-singapore/",
+   "title": "MoneySmart: Guide To Popular Merchant Category Codes (MCCs) in Singapore (updated Jan 2026)",
+   "type": "blog",
+   "quote": "Lazada 5311; Shopee 5331 or 5399; Amazon 5999; Uniqlo 5651; IKEA 5712 (IKEA restaurant 5814); Grab and Gojek 4121; GrabFood, foodpanda, Deliveroo 5499; Ryde 5734; iShopChangi 4582; Challenger 5732",
+   "note": "Author states the list is based on research and could be wrong; some merchants appear with two codes in the same article. Mastercard official list (4 Nov 2025) cited."
+  },
+  "s16": {
+   "url": "https://themoneybees.co/blog/mcc-codes-singapore-for-credit-cards",
+   "title": "The Money Bees: MCC Codes in Singapore, the Credit Card Rewards Cheat Sheet (2026 guide, undated)",
+   "type": "blog",
+   "quote": "Grab splits into three codes depending on whether you take a ride, order food, or top up GrabPay",
+   "note": "Grab rides 4121, GrabPay top-ups 6051 or 7399; Shopee 5399; Lazada 5311; Guardian and Watsons 5912; Singtel 4814; SP 4900; Shell, Esso, SPC 5541 or 5542; foodpanda and Deliveroo 5499."
+  },
+  "s17": {
+   "url": "https://sg-miles-public-wiki.pages.dev/merchants/",
+   "title": "SG Miles Public MCC Wiki (community reference; operator and data provenance not stated; per-merchant pages /merchants/<slug>/)",
+   "type": "community",
+   "quote": "Public Reference MCC Records labelled Non-official reference (db); Street Truth entries labelled user_reported",
+   "note": "Used as community data points only. Pages read: shopee, lazada, grab, starbucks, giant, cold-storage, sheng-siong, guardian, watsons, 7-eleven, mcdonalds, uniqlo, apple, amazon, ikea, singtel, starhub, klook, agoda, scoot, singapore-airlines, shell, takashimaya, popular, little-farms, gojek, welcia, foodpanda, cheers."
+  },
+  "s18": {
+   "url": "https://milelion.com/2026/07/18/faqs-dbs-yuu-card-yuu-points-and-10-mpd-at-yuu-merchants/",
+   "title": "MileLion: FAQs on the DBS yuu Card (18 Jul 2026)",
+   "type": "blog",
+   "quote": "The Cold Storage app does not accept AMEX cards.",
+   "note": "Also: some Singtel kiosks do not accept AMEX (all accept Visa)."
+  },
+  "s19": {
+   "url": "https://milelion.com/2023/05/03/max-look-up-any-merchants-mcc/",
+   "title": "MileLion: Max: Look up any merchant's MCC (3 May 2023)",
+   "type": "blog",
+   "quote": "Max is a newly-launched website that taps the Visa Merchant Lookup API to provide MCCs.",
+   "note": "Describes the HeyMax MCC lookup. Notes that merchants such as Lazada use multiple MCCs and that a merchant may not appear if the Visa-registered name differs. The lookup requires a login and could not be queried from this build."
+  },
+  "s20": {
+   "url": "https://cardexpress.in/mcc-guide/lookup/apple",
+   "title": "CardExpress MCC guide, Apple and LinkedIn lookups (community-reported, last checked 10 Oct 2026)",
+   "type": "community",
+   "quote": "Apple: MCC 5732 (Store), MCC 5735 (Apple Music). LinkedIn: MCC 7399 (Business Services Other).",
+   "note": "Page says codes are community-reported and vary by acquirer. LinkedIn page: https://cardexpress.in/mcc-guide/lookup/linkedin (undated)."
+  },
+  "s21": {
+   "url": "https://axetip.pages.dev/merchant/uber/",
+   "title": "Axetip merchant page: Uber (undated)",
+   "type": "community",
+   "quote": "Uber transactions usually use MCC 4121 (Taxicabs and Limousines); UberEats MCC 5812",
+   "note": "Underlying data source not named by the page."
+  },
+  "s22": {
+   "url": "https://milelion.com/2026/07/01/ocbc-rewards-card-offering-6-mpd-for-watsons-and-selected-e-commerce-platforms/",
+   "title": "MileLion: OCBC Rewards Card extends 6 mpd for Watsons, Shopee, Lazada and more (1 Jul 2026)",
+   "type": "blog",
+   "quote": "e-commerce platforms can process transactions over a wide range of MCCs",
+   "note": "ShopeePay under MCC 5262 or 6540 earns no OCBC$; grocery-coded (5411) spend on Shopee and Lazada is excluded."
+  },
+  "s23": {
+   "url": "https://milelion.com/2026/10/09/heymax-miles-booster-buy-additional-max-miles-when-purchasing-vouchers/",
+   "title": "MileLion: HeyMax Miles Booster (9 Oct 2026)",
+   "type": "blog",
+   "quote": "HeyMax voucher purchases code as MCC 5311 Department Stores.",
+   "note": "Source of the Miles Booster eligible voucher list (7-Eleven, Isetan, Tangs, Shell, GetGo, TADA, Lazada). Brand rates live in rules.json layers.heymax.brandRates."
+  },
+  "s24": {
+   "url": "https://milelion.com/2021/01/04/visa-supplier-locator-find-the-mcc-of-any-merchant-in-singapore/",
+   "title": "MileLion: Visa Supplier Locator: Find the MCC of any merchant in Singapore (4 Jan 2021)",
+   "type": "blog",
+   "quote": "Visa Supplier Locator",
+   "note": "Recommended route for Brian to verify any 'low' entry. Not queryable from this build."
+  },
+  "s25": {
+   "url": "https://milelion.com/2026/04/08/review-hsbc-revolution-card/",
+   "title": "MileLion: Review: HSBC Revolution Card (8 Apr 2026)",
+   "type": "blog",
+   "quote": "it does not include MCC 4111 (Local and Suburban Commuter Passenger Transport), which is used by SimplyGo",
+   "note": "Also: Starbucks 5814; 7-Eleven 5499; Klook and Agoda 4722; foodpanda switches between 5812 and 5814; HeyMax gift cards code 5311; Wogi gift cards code 5947."
+  },
+  "s26": {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf",
+   "title": "HSBC Revolution T&C (effective 1 Apr 2026), cl.7 MCC table",
+   "type": "issuer_tc",
+   "quote": "Travel 3000-3350, 4511; 3501-3999, 7011; Retail incl. 5311, 5651, 5691, 5732-5735, 5912; Dining 5441, 5462, 5811, 5812, 5813; Other 4121, 7997",
+   "note": "Used for categoryDefaults only. Issuer category lists, not merchant mappings."
+  },
+  "s27": {
+   "url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/",
+   "title": "Trust Freedom Credit Card product terms (category MCC lists)",
+   "type": "issuer_tc",
+   "quote": "Wellness 5912, 5977, 5997, 7230, 7297, 7298, 7997; Entertainment 7922 among others; zero-reward 4900, 6300, 8211, 8220, 8398, 9211, 9311, 9399",
+   "note": "Used for categoryDefaults only."
+  },
+  "s28": {
+   "url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-terms-and-conditions-2020.pdf",
+   "title": "Citi Rewards 10X T&C (effective 1 Apr 2024), clause 6 MCC list",
+   "type": "issuer_tc",
+   "quote": "5311, 5611, 5621, 5631, 5641, 5651, 5655, 5661, 5691, 5699, 5948",
+   "note": "Used for categoryDefaults (shoes 5661, bags 5948, department store 5311, clothing)."
+  },
+  "s29": {
+   "url": "https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-privileges-tp-tnc.pdf",
+   "title": "Maybank XL Rewards T&C (effective 1 Dec 2025), Dine and Shop MCC tables",
+   "type": "issuer_tc",
+   "quote": "Dine 5811, 5812, 5814, 5462; Shop 5262, 5310, 5311, 5331, 5399, 5621 to 5699, 5941",
+   "note": "Used for categoryDefaults only."
+  },
+  "s30": {
+   "url": "https://www.hsbc.com.sg/credit-cards/rewards/",
+   "title": "Project research: issuer exclusion lists (Citi, DBS, HSBC, Maybank, Trust) as recorded in rules.json",
+   "type": "issuer_tc",
+   "quote": "Zero-earn: 4900, 5960, 6300, 8211, 8220, 8299, 8398, 8651, 9211, 9311, 9399, 6540, 7399 (varies by card)",
+   "note": "Used for categoryDefaults for utilities, insurance, education, government, charity. See each card record in rules.json for its own list."
+  }
+ }
+}

@@ -1,0 +1,6238 @@
+{
+ "generatedAt": "2026-11-01",
+ "topMerchants": [
+  {
+   "key": "aia",
+   "displayName": "AIA (insurance premium)",
+   "category": "insurance",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 1,
+   "rankFrequency": 21
+  },
+  {
+   "key": "mufc-tickets",
+   "displayName": "Manchester United (tickets)",
+   "category": "entertainment_events",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 2,
+   "rankFrequency": 63
+  },
+  {
+   "key": "hilton",
+   "displayName": "Hilton",
+   "category": "travel_lodging",
+   "channel": "online",
+   "currency": "CNY",
+   "rankValue": 3,
+   "rankFrequency": 54
+  },
+  {
+   "key": "sp-group",
+   "displayName": "SP Group (utilities)",
+   "category": "utilities",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 4,
+   "rankFrequency": 31
+  },
+  {
+   "key": "alipay-qr",
+   "displayName": "Alipay / WeChat QR (China)",
+   "category": "overseas_qr",
+   "channel": "online",
+   "currency": "CNY",
+   "rankValue": 5,
+   "rankFrequency": 2
+  },
+  {
+   "key": "bahrain-intl-circuit",
+   "displayName": "Bahrain International Circuit (F1)",
+   "category": "entertainment_events",
+   "channel": "online",
+   "currency": "BHD",
+   "rankValue": 6,
+   "rankFrequency": 304
+  },
+  {
+   "key": "singapore-airlines",
+   "displayName": "Singapore Airlines",
+   "category": "travel_air",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 7,
+   "rankFrequency": 112
+  },
+  {
+   "key": "malaysia-airlines",
+   "displayName": "Malaysia Airlines",
+   "category": "travel_air",
+   "channel": "online",
+   "currency": "CNY",
+   "rankValue": 8,
+   "rankFrequency": 60
+  },
+  {
+   "key": "off-duty",
+   "displayName": "Off Duty",
+   "category": "other",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 9,
+   "rankFrequency": 57
+  },
+  {
+   "key": "skin-longevity",
+   "displayName": "Skin Longevity (aesthetics)",
+   "category": "healthcare",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 10,
+   "rankFrequency": 267
+  },
+  {
+   "key": "best-tech",
+   "displayName": "Best Tech (electronics)",
+   "category": "home_electronics",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 11,
+   "rankFrequency": 217
+  },
+  {
+   "key": "shopee",
+   "displayName": "Shopee",
+   "category": "online_shopping",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 12,
+   "rankFrequency": 4
+  },
+  {
+   "key": "giant",
+   "displayName": "Giant",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 13,
+   "rankFrequency": 10
+  },
+  {
+   "key": "starhub",
+   "displayName": "StarHub",
+   "category": "telco",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 14,
+   "rankFrequency": 36
+  },
+  {
+   "key": "kimpton",
+   "displayName": "Kimpton (IHG)",
+   "category": "travel_lodging",
+   "channel": "online",
+   "currency": "TWD",
+   "rankValue": 15,
+   "rankFrequency": 314
+  },
+  {
+   "key": "grab",
+   "displayName": "Grab (rides)",
+   "category": "ride_hailing",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 16,
+   "rankFrequency": 3
+  },
+  {
+   "key": "public-transport-sg",
+   "displayName": "Public transport (SG bus/MRT)",
+   "category": "transport_public",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 17,
+   "rankFrequency": 1
+  },
+  {
+   "key": "scoot",
+   "displayName": "Scoot",
+   "category": "travel_air",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 18,
+   "rankFrequency": 305
+  },
+  {
+   "key": "hyatt",
+   "displayName": "Hyatt",
+   "category": "travel_lodging",
+   "channel": "online",
+   "currency": "HKD",
+   "rankValue": 19,
+   "rankFrequency": 152
+  },
+  {
+   "key": "cathay-pacific",
+   "displayName": "Cathay Pacific",
+   "category": "travel_air",
+   "channel": "online",
+   "currency": "HKD",
+   "rankValue": 20,
+   "rankFrequency": 87
+  },
+  {
+   "key": "hotel-other",
+   "displayName": "Hotel (other)",
+   "category": "travel_lodging",
+   "channel": "online",
+   "currency": "HKD",
+   "rankValue": 21,
+   "rankFrequency": 115
+  },
+  {
+   "key": "guardian",
+   "displayName": "Guardian",
+   "category": "pharmacy_personal_care",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 22,
+   "rankFrequency": 7
+  },
+  {
+   "key": "san-shu-gong-chao-yue",
+   "displayName": "San Shu Gong Chao Yue",
+   "category": "other",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 23,
+   "rankFrequency": 297
+  },
+  {
+   "key": "lazada",
+   "displayName": "Lazada",
+   "category": "online_shopping",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 24,
+   "rankFrequency": 14
+  },
+  {
+   "key": "claudine",
+   "displayName": "Claudine",
+   "category": "other",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 25,
+   "rankFrequency": 211
+  },
+  {
+   "key": "meipai",
+   "displayName": "Meipai",
+   "category": "overseas_qr",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 26,
+   "rankFrequency": 242
+  },
+  {
+   "key": "ban-lan-hokkien",
+   "displayName": "Ban Lan Hokkien Cuisine",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 27,
+   "rankFrequency": 261
+  },
+  {
+   "key": "yang-ming-seafood",
+   "displayName": "Yang Ming Seafood",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 28,
+   "rankFrequency": 326
+  },
+  {
+   "key": "taobao",
+   "displayName": "Taobao",
+   "category": "online_shopping",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 29,
+   "rankFrequency": 41
+  },
+  {
+   "key": "hakka-yu",
+   "displayName": "Hakka Yu",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 30,
+   "rankFrequency": 30
+  },
+  {
+   "key": "cold-storage",
+   "displayName": "Cold Storage",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 31,
+   "rankFrequency": 6
+  },
+  {
+   "key": "paradise-group",
+   "displayName": "Paradise Group",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 32,
+   "rankFrequency": 53
+  },
+  {
+   "key": "uber",
+   "displayName": "Uber",
+   "category": "ride_hailing",
+   "channel": "online",
+   "currency": "TWD",
+   "rankValue": 33,
+   "rankFrequency": 22
+  },
+  {
+   "key": "jaya-grocer",
+   "displayName": "Jaya Grocer",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 34,
+   "rankFrequency": 65
+  },
+  {
+   "key": "nai-nai",
+   "displayName": "Nai Nai Flavour",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 35,
+   "rankFrequency": 61
+  },
+  {
+   "key": "les-bouchons",
+   "displayName": "Les Bouchons",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 36,
+   "rankFrequency": 256
+  },
+  {
+   "key": "shanxiayousong",
+   "displayName": "Shanxiayousong",
+   "category": "other",
+   "channel": "offline",
+   "currency": "CNY",
+   "rankValue": 37,
+   "rankFrequency": 233
+  },
+  {
+   "key": "linkedin",
+   "displayName": "LinkedIn",
+   "category": "subscriptions_digital",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 38,
+   "rankFrequency": 45
+  },
+  {
+   "key": "gojek",
+   "displayName": "Gojek (GoPay)",
+   "category": "ride_hailing",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 39,
+   "rankFrequency": 19
+  },
+  {
+   "key": "chin-lee",
+   "displayName": "Chin Lee Restaurant",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 40,
+   "rankFrequency": 320
+  },
+  {
+   "key": "fairprice",
+   "displayName": "NTUC FairPrice",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 41,
+   "rankFrequency": 5
+  },
+  {
+   "key": "overseas-qr-kpay-eftpay",
+   "displayName": "Malaysia / HK QR (KPAY, EFTPay)",
+   "category": "overseas_qr",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 42,
+   "rankFrequency": 33
+  },
+  {
+   "key": "foodpanda",
+   "displayName": "foodpanda",
+   "category": "food_delivery",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 49,
+   "rankFrequency": 25
+  },
+  {
+   "key": "meituan",
+   "displayName": "Meituan",
+   "category": "overseas_qr",
+   "channel": "online",
+   "currency": "CNY",
+   "rankValue": 50,
+   "rankFrequency": 17
+  },
+  {
+   "key": "watsons",
+   "displayName": "Watsons",
+   "category": "pharmacy_personal_care",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 51,
+   "rankFrequency": 13
+  },
+  {
+   "key": "m1",
+   "displayName": "M1",
+   "category": "telco",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 53,
+   "rankFrequency": 32
+  },
+  {
+   "key": "mcdonalds",
+   "displayName": "McDonald's",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 57,
+   "rankFrequency": 18
+  },
+  {
+   "key": "welcia",
+   "displayName": "Welcia",
+   "category": "pharmacy_personal_care",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 62,
+   "rankFrequency": 26
+  },
+  {
+   "key": "takashimaya",
+   "displayName": "Takashimaya",
+   "category": "department_store",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 66,
+   "rankFrequency": 37
+  },
+  {
+   "key": "apple-bill",
+   "displayName": "Apple (App Store / iCloud)",
+   "category": "subscriptions_digital",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 69,
+   "rankFrequency": 20
+  },
+  {
+   "key": "so-good",
+   "displayName": "So Good",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 74,
+   "rankFrequency": 24
+  },
+  {
+   "key": "didi",
+   "displayName": "Didi",
+   "category": "ride_hailing",
+   "channel": "online",
+   "currency": "CNY",
+   "rankValue": 81,
+   "rankFrequency": 9
+  },
+  {
+   "key": "sheng-siong",
+   "displayName": "Sheng Siong",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 85,
+   "rankFrequency": 15
+  },
+  {
+   "key": "starbucks",
+   "displayName": "Starbucks",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 88,
+   "rankFrequency": 12
+  },
+  {
+   "key": "popular-bookstore",
+   "displayName": "Popular Bookstore",
+   "category": "retail",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 89,
+   "rankFrequency": 35
+  },
+  {
+   "key": "little-farms",
+   "displayName": "Little Farms",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 93,
+   "rankFrequency": 39
+  },
+  {
+   "key": "tori-q",
+   "displayName": "Tori-Q",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 99,
+   "rankFrequency": 34
+  },
+  {
+   "key": "overseas-public-transport",
+   "displayName": "Overseas public transport",
+   "category": "transport_public",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 104,
+   "rankFrequency": 8
+  },
+  {
+   "key": "cheers",
+   "displayName": "Cheers",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 120,
+   "rankFrequency": 23
+  },
+  {
+   "key": "golden-cafe",
+   "displayName": "Golden Cafe Group",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 122,
+   "rankFrequency": 16
+  },
+  {
+   "key": "jasons-market-place",
+   "displayName": "Jasons Market Place",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 123,
+   "rankFrequency": 28
+  },
+  {
+   "key": "shopback-bakery",
+   "displayName": "ShopBack Bakery Cu",
+   "category": "dining",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 147,
+   "rankFrequency": 11
+  },
+  {
+   "key": "slow-wood",
+   "displayName": "Slow Wood",
+   "category": "dining",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 171,
+   "rankFrequency": 40
+  },
+  {
+   "key": "7-eleven",
+   "displayName": "7-Eleven",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 197,
+   "rankFrequency": 38
+  },
+  {
+   "key": "gardenia",
+   "displayName": "Gardenia",
+   "category": "groceries",
+   "channel": "offline",
+   "currency": "SGD",
+   "rankValue": 200,
+   "rankFrequency": 29
+  },
+  {
+   "key": "helloride",
+   "displayName": "HelloRide",
+   "category": "micro_mobility",
+   "channel": "online",
+   "currency": "SGD",
+   "rankValue": 227,
+   "rankFrequency": 27
+  }
+ ],
+ "capExhaustion": {
+  "citi-rewards": {
+   "capId": "bonus",
+   "typicalDay": null,
+   "label": "Rarely reached"
+  },
+  "dbs-yuu": {
+   "capId": "bonus",
+   "typicalDay": null,
+   "label": "Rarely reached"
+  },
+  "hsbc-revolution": {
+   "capId": "bonus-standard",
+   "typicalDay": null,
+   "label": "Rarely reached"
+  },
+  "chocolate-visa-debit": {
+   "capId": "band",
+   "typicalDay": null,
+   "label": "No spend history"
+  },
+  "maybank-xl-rewards": {
+   "capId": "bonus",
+   "typicalDay": null,
+   "label": "No spend history"
+  }
+ },
+ "cheatSheet": [
+  {
+   "key": "aia",
+   "displayName": "AIA (insurance premium)",
+   "template": {
+    "merchantId": "aia",
+    "merchantName": null,
+    "category": "insurance",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "maybank-xl-rewards",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "mufc-tickets",
+   "displayName": "Manchester United (tickets)",
+   "template": {
+    "merchantId": "mufc-tickets",
+    "merchantName": null,
+    "category": "entertainment_events",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "hilton",
+   "displayName": "Hilton",
+   "template": {
+    "merchantId": "hilton",
+    "merchantName": null,
+    "category": "travel_lodging",
+    "amount": 100,
+    "channel": "online",
+    "currency": "CNY",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "sp-group",
+   "displayName": "SP Group (utilities)",
+   "template": {
+    "merchantId": "sp-group",
+    "merchantName": null,
+    "category": "utilities",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "alipay-qr",
+   "displayName": "Alipay / WeChat QR (China)",
+   "template": {
+    "merchantId": "alipay-qr",
+    "merchantName": null,
+    "category": "overseas_qr",
+    "amount": 100,
+    "channel": "online",
+    "currency": "CNY",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "bahrain-intl-circuit",
+   "displayName": "Bahrain International Circuit (F1)",
+   "template": {
+    "merchantId": "bahrain-intl-circuit",
+    "merchantName": null,
+    "category": "entertainment_events",
+    "amount": 100,
+    "channel": "online",
+    "currency": "BHD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "singapore-airlines",
+   "displayName": "Singapore Airlines",
+   "template": {
+    "merchantId": "singapore-airlines",
+    "merchantName": null,
+    "category": "travel_air",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "malaysia-airlines",
+   "displayName": "Malaysia Airlines",
+   "template": {
+    "merchantId": "malaysia-airlines",
+    "merchantName": null,
+    "category": "travel_air",
+    "amount": 100,
+    "channel": "online",
+    "currency": "CNY",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "off-duty",
+   "displayName": "Off Duty",
+   "template": {
+    "merchantId": "off-duty",
+    "merchantName": null,
+    "category": "other",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "skin-longevity",
+   "displayName": "Skin Longevity (aesthetics)",
+   "template": {
+    "merchantId": "skin-longevity",
+    "merchantName": null,
+    "category": "healthcare",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "best-tech",
+   "displayName": "Best Tech (electronics)",
+   "template": {
+    "merchantId": "best-tech",
+    "merchantName": null,
+    "category": "home_electronics",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "shopee",
+   "displayName": "Shopee",
+   "template": {
+    "merchantId": "shopee",
+    "merchantName": null,
+    "category": "online_shopping",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "giant",
+   "displayName": "Giant",
+   "template": {
+    "merchantId": "giant",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "heymax_voucher",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "heymax_voucher",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 2.778,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "starhub",
+   "displayName": "StarHub",
+   "template": {
+    "merchantId": "starhub",
+    "merchantName": null,
+    "category": "telco",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "kimpton",
+   "displayName": "Kimpton (IHG)",
+   "template": {
+    "merchantId": "kimpton",
+    "merchantName": null,
+    "category": "travel_lodging",
+    "amount": 100,
+    "channel": "online",
+    "currency": "TWD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "grab",
+   "displayName": "Grab (rides)",
+   "template": {
+    "merchantId": "grab",
+    "merchantName": null,
+    "category": "ride_hailing",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "heymax_voucher",
+     "mpd": 6.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "heymax_voucher",
+     "mpd": 6.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "heymax_voucher",
+     "mpd": 4.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "public-transport-sg",
+   "displayName": "Public transport (SG bus/MRT)",
+   "template": {
+    "merchantId": "public-transport-sg",
+    "merchantName": null,
+    "category": "transport_public",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 2.778,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "scoot",
+   "displayName": "Scoot",
+   "template": {
+    "merchantId": "scoot",
+    "merchantName": null,
+    "category": "travel_air",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "hyatt",
+   "displayName": "Hyatt",
+   "template": {
+    "merchantId": "hyatt",
+    "merchantName": null,
+    "category": "travel_lodging",
+    "amount": 100,
+    "channel": "online",
+    "currency": "HKD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cathay-pacific",
+   "displayName": "Cathay Pacific",
+   "template": {
+    "merchantId": "cathay-pacific",
+    "merchantName": null,
+    "category": "travel_air",
+    "amount": 100,
+    "channel": "online",
+    "currency": "HKD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "hotel-other",
+   "displayName": "Hotel (other)",
+   "template": {
+    "merchantId": "hotel-other",
+    "merchantName": null,
+    "category": "travel_lodging",
+    "amount": 100,
+    "channel": "online",
+    "currency": "HKD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "guardian",
+   "displayName": "Guardian",
+   "template": {
+    "merchantId": "guardian",
+    "merchantName": null,
+    "category": "pharmacy_personal_care",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 2.778,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "san-shu-gong-chao-yue",
+   "displayName": "San Shu Gong Chao Yue",
+   "template": {
+    "merchantId": "san-shu-gong-chao-yue",
+    "merchantName": null,
+    "category": "other",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "lazada",
+   "displayName": "Lazada",
+   "template": {
+    "merchantId": "lazada",
+    "merchantName": null,
+    "category": "online_shopping",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "claudine",
+   "displayName": "Claudine",
+   "template": {
+    "merchantId": null,
+    "merchantName": "Claudine",
+    "category": "other",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "meipai",
+   "displayName": "Meipai",
+   "template": {
+    "merchantId": "meipai",
+    "merchantName": null,
+    "category": "overseas_qr",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "ban-lan-hokkien",
+   "displayName": "Ban Lan Hokkien Cuisine",
+   "template": {
+    "merchantId": "ban-lan-hokkien",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "yang-ming-seafood",
+   "displayName": "Yang Ming Seafood",
+   "template": {
+    "merchantId": "yang-ming-seafood",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "taobao",
+   "displayName": "Taobao",
+   "template": {
+    "merchantId": "taobao",
+    "merchantName": null,
+    "category": "online_shopping",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "hakka-yu",
+   "displayName": "Hakka Yu",
+   "template": {
+    "merchantId": "hakka-yu",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cold-storage",
+   "displayName": "Cold Storage",
+   "template": {
+    "merchantId": "cold-storage",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 2.778,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "paradise-group",
+   "displayName": "Paradise Group",
+   "template": {
+    "merchantId": "paradise-group",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "uber",
+   "displayName": "Uber",
+   "template": {
+    "merchantId": "uber",
+    "merchantName": null,
+    "category": "ride_hailing",
+    "amount": 100,
+    "channel": "online",
+    "currency": "TWD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "jaya-grocer",
+   "displayName": "Jaya Grocer",
+   "template": {
+    "merchantId": "jaya-grocer",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "nai-nai",
+   "displayName": "Nai Nai Flavour",
+   "template": {
+    "merchantId": "nai-nai",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "les-bouchons",
+   "displayName": "Les Bouchons",
+   "template": {
+    "merchantId": "les-bouchons",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "shanxiayousong",
+   "displayName": "Shanxiayousong",
+   "template": {
+    "merchantId": "shanxiayousong",
+    "merchantName": null,
+    "category": "other",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "CNY",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "linkedin",
+   "displayName": "LinkedIn",
+   "template": {
+    "merchantId": "linkedin",
+    "merchantName": null,
+    "category": "subscriptions_digital",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "maybank-xl-rewards",
+     "method": "card_online",
+     "mpd": 0.4,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "gojek",
+   "displayName": "Gojek (GoPay)",
+   "template": {
+    "merchantId": "gojek",
+    "merchantName": null,
+    "category": "ride_hailing",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "chin-lee",
+   "displayName": "Chin Lee Restaurant",
+   "template": {
+    "merchantId": "chin-lee",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "fairprice",
+   "displayName": "NTUC FairPrice",
+   "template": {
+    "merchantId": "fairprice",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "heymax_voucher",
+     "mpd": 4.1,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "heymax_voucher",
+     "mpd": 4.1,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "heymax_voucher",
+     "mpd": 2.1,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "overseas-qr-kpay-eftpay",
+   "displayName": "Malaysia / HK QR (KPAY, EFTPay)",
+   "template": {
+    "merchantId": "overseas-qr-kpay-eftpay",
+    "merchantName": null,
+    "category": "overseas_qr",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "foodpanda",
+   "displayName": "foodpanda",
+   "template": {
+    "merchantId": "foodpanda",
+    "merchantName": null,
+    "category": "food_delivery",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "heymax_voucher",
+     "mpd": 4.6,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "heymax_voucher",
+     "mpd": 4.6,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "heymax_voucher",
+     "mpd": 2.6,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "meituan",
+   "displayName": "Meituan",
+   "template": {
+    "merchantId": "meituan",
+    "merchantName": null,
+    "category": "overseas_qr",
+    "amount": 100,
+    "channel": "online",
+    "currency": "CNY",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "watsons",
+   "displayName": "Watsons",
+   "template": {
+    "merchantId": "watsons",
+    "merchantName": null,
+    "category": "pharmacy_personal_care",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "m1",
+   "displayName": "M1",
+   "template": {
+    "merchantId": "m1",
+    "merchantName": null,
+    "category": "telco",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "mcdonalds",
+   "displayName": "McDonald's",
+   "template": {
+    "merchantId": "mcdonalds",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "welcia",
+   "displayName": "Welcia",
+   "template": {
+    "merchantId": "welcia",
+    "merchantName": null,
+    "category": "pharmacy_personal_care",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "takashimaya",
+   "displayName": "Takashimaya",
+   "template": {
+    "merchantId": "takashimaya",
+    "merchantName": null,
+    "category": "department_store",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "apple-bill",
+   "displayName": "Apple (App Store / iCloud)",
+   "template": {
+    "merchantId": "apple-bill",
+    "merchantName": null,
+    "category": "subscriptions_digital",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "so-good",
+   "displayName": "So Good",
+   "template": {
+    "merchantId": "so-good",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "didi",
+   "displayName": "Didi",
+   "template": {
+    "merchantId": "didi",
+    "merchantName": null,
+    "category": "ride_hailing",
+    "amount": 100,
+    "channel": "online",
+    "currency": "CNY",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "sheng-siong",
+   "displayName": "Sheng Siong",
+   "template": {
+    "merchantId": "sheng-siong",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "heymax_voucher",
+     "mpd": 4.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "heymax_voucher",
+     "mpd": 4.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "heymax_voucher",
+     "mpd": 2.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "starbucks",
+   "displayName": "Starbucks",
+   "template": {
+    "merchantId": "starbucks",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "popular-bookstore",
+   "displayName": "Popular Bookstore",
+   "template": {
+    "merchantId": "popular-bookstore",
+    "merchantName": null,
+    "category": "retail",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "little-farms",
+   "displayName": "Little Farms",
+   "template": {
+    "merchantId": "little-farms",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "tori-q",
+   "displayName": "Tori-Q",
+   "template": {
+    "merchantId": "tori-q",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "overseas-public-transport",
+   "displayName": "Overseas public transport",
+   "template": {
+    "merchantId": "overseas-public-transport",
+    "merchantName": null,
+    "category": "transport_public",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "amex-plat-credit",
+     "method": "physical_tap",
+     "mpd": 0.564,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cheers",
+   "displayName": "Cheers",
+   "template": {
+    "merchantId": "cheers",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "golden-cafe",
+   "displayName": "Golden Cafe Group",
+   "template": {
+    "merchantId": "golden-cafe",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "jasons-market-place",
+   "displayName": "Jasons Market Place",
+   "template": {
+    "merchantId": "jasons-market-place",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 2.778,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "shopback-bakery",
+   "displayName": "ShopBack Bakery Cu",
+   "template": {
+    "merchantId": "shopback-bakery",
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "slow-wood",
+   "displayName": "Slow Wood",
+   "template": {
+    "merchantId": null,
+    "merchantName": "Slow Wood",
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "7-eleven",
+   "displayName": "7-Eleven",
+   "template": {
+    "merchantId": "7-eleven",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "heymax_voucher",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "heymax_voucher",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 2.778,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "gardenia",
+   "displayName": "Gardenia",
+   "template": {
+    "merchantId": "gardenia",
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "helloride",
+   "displayName": "HelloRide",
+   "template": {
+    "merchantId": "helloride",
+    "merchantName": null,
+    "category": "micro_mobility",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:airline:offline",
+   "displayName": "Airline",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "airline",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:airline:online",
+   "displayName": "Airline",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "airline",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:bags:offline",
+   "displayName": "Bags",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "bags",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:bags:online",
+   "displayName": "Bags",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "bags",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:beauty:offline",
+   "displayName": "Beauty",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "beauty",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:beauty:online",
+   "displayName": "Beauty",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "beauty",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:charity:offline",
+   "displayName": "Charity",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "charity",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "physical_tap",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:charity:online",
+   "displayName": "Charity",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "charity",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:clothing:offline",
+   "displayName": "Clothing",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "clothing",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:clothing:online",
+   "displayName": "Clothing",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "clothing",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:department_store:offline",
+   "displayName": "Department store",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "department_store",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:department_store:online",
+   "displayName": "Department store",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "department_store",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:dining:offline",
+   "displayName": "Dining",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:dining:online",
+   "displayName": "Dining",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:dining:overseas",
+   "displayName": "Dining overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "dining",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:education:offline",
+   "displayName": "Education",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "education",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "physical_tap",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "maybank-xl-rewards",
+     "method": "physical_tap",
+     "mpd": 0.4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:education:online",
+   "displayName": "Education",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "education",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "maybank-xl-rewards",
+     "method": "card_online",
+     "mpd": 0.4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:electronics:offline",
+   "displayName": "Electronics",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "electronics",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:electronics:online",
+   "displayName": "Electronics",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "electronics",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:entertainment:offline",
+   "displayName": "Entertainment",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "entertainment",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:entertainment:online",
+   "displayName": "Entertainment",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "entertainment",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:entertainment_events:offline",
+   "displayName": "Entertainment events",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "entertainment_events",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:entertainment_events:online",
+   "displayName": "Entertainment events",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "entertainment_events",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:entertainment_events:overseas",
+   "displayName": "Entertainment events overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "entertainment_events",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:events_tickets:offline",
+   "displayName": "Events tickets",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "events_tickets",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:events_tickets:online",
+   "displayName": "Events tickets",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "events_tickets",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:fast_food:offline",
+   "displayName": "Fast food",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "fast_food",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:fast_food:online",
+   "displayName": "Fast food",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "fast_food",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:fitness:offline",
+   "displayName": "Fitness",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "fitness",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:fitness:online",
+   "displayName": "Fitness",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "fitness",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:fitness_wellness:offline",
+   "displayName": "Fitness wellness",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "fitness_wellness",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:fitness_wellness:online",
+   "displayName": "Fitness wellness",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "fitness_wellness",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:food_delivery:offline",
+   "displayName": "Food delivery",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "food_delivery",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:food_delivery:online",
+   "displayName": "Food delivery",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "food_delivery",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:fuel:offline",
+   "displayName": "Fuel",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "fuel",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:fuel:online",
+   "displayName": "Fuel",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "fuel",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:gifts_flowers:offline",
+   "displayName": "Gifts flowers",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "gifts_flowers",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:gifts_flowers:online",
+   "displayName": "Gifts flowers",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "gifts_flowers",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:government:offline",
+   "displayName": "Government",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "government",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "physical_tap",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "maybank-xl-rewards",
+     "method": "physical_tap",
+     "mpd": 0.4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:government:online",
+   "displayName": "Government",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "government",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "maybank-xl-rewards",
+     "method": "card_online",
+     "mpd": 0.4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:groceries:offline",
+   "displayName": "Groceries",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:groceries:online",
+   "displayName": "Groceries",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "groceries",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:healthcare:offline",
+   "displayName": "Healthcare",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "healthcare",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:healthcare:online",
+   "displayName": "Healthcare",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "healthcare",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:home_electronics:offline",
+   "displayName": "Home electronics",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "home_electronics",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:home_electronics:online",
+   "displayName": "Home electronics",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "home_electronics",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:hotel:offline",
+   "displayName": "Hotel",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "hotel",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:hotel:online",
+   "displayName": "Hotel",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "hotel",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:insurance:offline",
+   "displayName": "Insurance",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "insurance",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "physical_tap",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:insurance:online",
+   "displayName": "Insurance",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "insurance",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:medical:offline",
+   "displayName": "Medical",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "medical",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:medical:online",
+   "displayName": "Medical",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "medical",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:micro_mobility:offline",
+   "displayName": "Micro mobility",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "micro_mobility",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:micro_mobility:online",
+   "displayName": "Micro mobility",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "micro_mobility",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:online_shopping:offline",
+   "displayName": "Online shopping",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "online_shopping",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:online_shopping:online",
+   "displayName": "Online shopping",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "online_shopping",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:online_shopping:overseas",
+   "displayName": "Online shopping overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "online_shopping",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:other:offline",
+   "displayName": "Other",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "other",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:other:online",
+   "displayName": "Other",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "other",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:other:overseas",
+   "displayName": "Other overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "other",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:overseas_qr:offline",
+   "displayName": "Overseas qr",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "overseas_qr",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:overseas_qr:online",
+   "displayName": "Overseas qr",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "overseas_qr",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:overseas_qr:overseas",
+   "displayName": "Overseas qr overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "overseas_qr",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:parking:offline",
+   "displayName": "Parking",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "parking",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:parking:online",
+   "displayName": "Parking",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "parking",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:petrol:offline",
+   "displayName": "Petrol",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "petrol",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:petrol:online",
+   "displayName": "Petrol",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "petrol",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:pharmacy:offline",
+   "displayName": "Pharmacy",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "pharmacy",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:pharmacy:online",
+   "displayName": "Pharmacy",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "pharmacy",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:pharmacy_personal_care:offline",
+   "displayName": "Pharmacy personal care",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "pharmacy_personal_care",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:pharmacy_personal_care:online",
+   "displayName": "Pharmacy personal care",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "pharmacy_personal_care",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:retail:offline",
+   "displayName": "Retail",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "retail",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:retail:online",
+   "displayName": "Retail",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "retail",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:retail:overseas",
+   "displayName": "Retail overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "retail",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:ride_hailing:offline",
+   "displayName": "Ride hailing",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "ride_hailing",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:ride_hailing:online",
+   "displayName": "Ride hailing",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "ride_hailing",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:ride_hailing:overseas",
+   "displayName": "Ride hailing overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "ride_hailing",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:services:offline",
+   "displayName": "Services",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "services",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:services:online",
+   "displayName": "Services",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "services",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:shoes:offline",
+   "displayName": "Shoes",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "shoes",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "physical_tap",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:shoes:online",
+   "displayName": "Shoes",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "shoes",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-revolution",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:subscriptions_digital:offline",
+   "displayName": "Subscriptions digital",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "subscriptions_digital",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:subscriptions_digital:online",
+   "displayName": "Subscriptions digital",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "subscriptions_digital",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:supermarket:offline",
+   "displayName": "Supermarket",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "supermarket",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:supermarket:online",
+   "displayName": "Supermarket",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "supermarket",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:telco:offline",
+   "displayName": "Telco",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "telco",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:telco:online",
+   "displayName": "Telco",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "telco",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:transport:offline",
+   "displayName": "Transport",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "transport",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "amex-plat-credit",
+     "method": "physical_tap",
+     "mpd": 0.564,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:transport:online",
+   "displayName": "Transport",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "transport",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:transport_public:offline",
+   "displayName": "Transport public",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "transport_public",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:transport_public:online",
+   "displayName": "Transport public",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "transport_public",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:transport_public:overseas",
+   "displayName": "Transport public overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "transport_public",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_agency:offline",
+   "displayName": "Travel agency",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_agency",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "amex-plat-credit",
+     "method": "physical_tap",
+     "mpd": 0.564,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_agency:online",
+   "displayName": "Travel agency",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_agency",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_air:offline",
+   "displayName": "Travel air",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_air",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_air:online",
+   "displayName": "Travel air",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_air",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_air:overseas",
+   "displayName": "Travel air overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_air",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_lodging:offline",
+   "displayName": "Travel lodging",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_lodging",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_lodging:online",
+   "displayName": "Travel lodging",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_lodging",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_lodging:overseas",
+   "displayName": "Travel lodging overseas",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_lodging",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "USD",
+    "location": "overseas"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 2.4,
+     "programme": "AVIOS"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_other:offline",
+   "displayName": "Travel other",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_other",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "amaze",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "physical_tap",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "physical_tap",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:travel_other:online",
+   "displayName": "Travel other",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "travel_other",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 4,
+     "programme": "KF"
+    },
+    {
+     "cardId": "trust-freedom",
+     "method": "card_online",
+     "mpd": 2,
+     "programme": "CASH"
+    },
+    {
+     "cardId": "hsbc-travelone",
+     "method": "card_online",
+     "mpd": 1.2,
+     "programme": "AVIOS"
+    }
+   ]
+  },
+  {
+   "key": "cat:utilities:offline",
+   "displayName": "Utilities",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "utilities",
+    "amount": 100,
+    "channel": "offline",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "physical_tap",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "physical_tap",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "physical_tap",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  },
+  {
+   "key": "cat:utilities:online",
+   "displayName": "Utilities",
+   "template": {
+    "merchantId": null,
+    "merchantName": null,
+    "category": "utilities",
+    "amount": 100,
+    "channel": "online",
+    "currency": "SGD",
+    "location": "sg"
+   },
+   "top3": [
+    {
+     "cardId": "amex-plat-credit",
+     "method": "card_online",
+     "mpd": 0.564,
+     "programme": "KF"
+    },
+    {
+     "cardId": "citi-rewards",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    },
+    {
+     "cardId": "dbs-yuu",
+     "method": "card_online",
+     "mpd": 0,
+     "programme": "KF"
+    }
+   ]
+  }
+ ]
+}
